@@ -1,0 +1,34 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1045 &1
+EditorBuildSettings:
+  m_ObjectHideFlags: 0
+  serializedVersion: 2
+  m_Scenes:
+  - enabled: 0
+    path: Assets/Scenes/OldImplementationScenes/MenuScreens/TitleScene.unity
+    guid: 58ec5c583688e28479f12a14d7340106
+  - enabled: 0
+    path: Assets/Scenes/OldImplementationScenes/MenuScreens/SettingsScene.unity
+    guid: 043b45131d91fd14991b17654fa30f3b
+  - enabled: 0
+    path: Assets/Scenes/OldImplementationScenes/MenuScreens/LanguageSelectorScreen.unity
+    guid: 5cb8ea90771ca3f47b4e32eacb1c49bd
+  - enabled: 1
+    path: Assets/Scenes/Menu/MainMenuScene.unity
+    guid: 3ff416ce5f23ad7418bb6a3585619638
+  - enabled: 1
+    path: Assets/Scenes/Level1/LineChartScene.unity
+    guid: e8da3c97c000c534883e43bd6075b768
+  - enabled: 1
+    path: Assets/Scenes/Level 2/AreaChartScene.unity
+    guid: bbb151bbed4df4540908ee330474212f
+  - enabled: 1
+    path: Assets/Scenes/Level3/StackedAreaChartScene.unity
+    guid: e85d911284b7f0c469586ddb5d09bb18
+  - enabled: 1
+    path: Assets/Scenes/Level4/StreamGraphScene.unity
+    guid: 1fec352eae00101449df5d8f55b15760
+  m_configObjects:
+    com.unity.addressableassets: {fileID: 11400000, guid: 18dbb2e69c292e945b2fa4c9553a4cc5, type: 2}
+    com.unity.localization.settings: {fileID: 11400000, guid: 00e5aac4fa99ff14c8cb087f7bc5f67e, type: 2}

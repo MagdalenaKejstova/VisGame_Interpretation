@@ -1,0 +1,493 @@
+{
+  "levelTexts": {
+    "lineChart": {
+      "activityTexts": {
+        "introduction": {
+          "informationChunks": {
+            "wilmaIntro": "Hey! Ich bin Wilma, und ich werde dein*e Guide auf dieser Reise sein. Wir tauchen gleich in die Welt der <color=blue>Datenvisualisierungen</color> ein. Wir werden vier Arten der Datenvisualisierung durchgehen. Jede Visualisierungsart wird zunächst vorgestellt und anschließend werden Sie eine Aufgabe lösen, um festzustellen, ob Sie sie verstanden haben.",
+            "scoringSystem": "Für jede richtige Antwort erhalten Sie 50 Punkte, für jede falsche Antwort verlieren Sie 25 Punkte. Dein Ziel ist es, in jedem Level so viele Punkte wie möglich zu sammeln, um das Goldabzeichen für jedes Level freizuschalten. Wenn du das Goldabzeichen für alle vier Level erhalten hast, kannst du das Masterabzeichen freischalten! Viel Glück!",
+            "dataInfoFirst": "Daten sind überall, auch wenn wir sie nicht immer bemerken. Willst du wissen, wie das Wetter morgen wird oder wie die Welt in 100 Jahren aussehen könnte? Es geht alles um die Daten. Also, was sind eigentlich Daten? ",
+            "dataIntro": "Daten sind im Grunde <color=blue>alles Faktische, was wir messen können</color>. Denk an Dinge wie das Durchschnittsgehalt in einem Land, die Anzahl der Kinder in einem Haushalt oder wie sich der Meeresspiegel über die Jahre verändert hat.",
+            "dataIntro2": "Zahlen sind super nützlich, aber Tabellen anzustarren ist langweilig und verwirrend. Wer will das schon machen, nur um zu wissen, ob man morgen einen Regenschirm braucht? Genau da kommen <color=blue>Datenvisualisierungen</color> ins Spiel, die Rohdaten interessant und leicht verständlich machen.",
+            "visualizationIntro": "Datenvisualisierung ist eine <color=blue>visuelle Darstellung</color> von Daten, die es einfacher macht, sie zu studieren und zu verstehen. Schau dir das Diagramm unten an – es ist ein perfektes Beispiel. Aber sei vorsichtig, eine gute Visualisierung hilft uns, das richtige Bild zu bekommen, während eine schlechte uns komplett in die Irre führen kann.",
+            "chartIntro": "Es gibt viele Möglichkeiten, Daten zu visualisieren, und wir müssen die richtige für unsere Informationen auswählen. In diesem Spiel, wie du im Menü gesehen hast, konzentrieren wir uns auf 4 Visualisierungstechniken - Liniendiagramm, Flächendiagramm, gestapeltes Flächendiagramm und Streamgraph.",
+            "lineChart": "Fangen wir mit der einfachsten an – dem <color=blue>Liniendiagramm</color>. Du siehst ein Beispiel gleich unten. Ein Liniendiagramm ist eine Art der Datenvisualisierung, die Informationen als eine Reihe von Datenpunkten darstellt, die durch gerade Liniensegmente verbunden sind. Es wird verwendet, um Datentrends über die Zeit zu visualisieren.",
+            "axes": "Die Basiskomponenten jedes Diagramms sind die <color=blue>Achsen</color>. Ein typisches Diagramm hat zwei Achsen, die senkrecht zueinander stehen.",
+            "xAxis": "Die <color=red>x-Achse</color> ist die horizontale Linie unten. Am häufigsten verwenden wir sie, um Zeitintervalle der Datenpunkte darzustellen. Hier siehst du die Tage im März.",
+            "yAxis": "Die <color=blue>y-Achse</color> ist die vertikale Linie links. Wir verwenden sie normalerweise, um die gemessenen Werte der Datenpunkte darzustellen. Hier siehst du die Temperatur in Grad Celsius.",
+            "dataPoints": "Die Punkte in diesem Diagramm repräsentieren <color=green>Datenpunkte</color>. Jeder Punkt steht für eine Kombination von Werten auf der y-Achse und der x-Achse. Zum Beispiel sehen wir, dass es am 1.3. etwa 7°C war.",
+            "line": "Schließlich ist die <color=yellow>Linie</color>, die die Punkte verbindet, das, was dieses Diagramm zu einem Liniendiagramm macht. So einfach ist das! Der Zweck der Linie ist es, uns verschiedene Trends im Laufe der Zeit zu zeigen. Ein Trend bedeutet, dass die Werte für mehrere Punkte in Folge gestiegen (oder gefallen) sind. ",
+            "peeksTroughs": "Punkte, an denen die Linie ihre Richtung von aufwärts zu abwärts ändert, nennt man Peaks (Gipfel). Troughs (Täler) sind Punkte, an denen die zuvor abwärts verlaufende Linie wieder aufwärts geht. Der höchste Peak und der tiefste Trough werden als Extreme bezeichnet. Wir können auch die Änderungsrate beobachten – wie schnell die Veränderung stattfindet. Wenn die Linie steil aussieht, ist die Änderungsrate schneller. Wenn sie flacher aussieht, ist die Veränderung allmählicher.",
+            "extremes": "Der Punkt mit dem höchsten Wert auf der y-Achse ist das <color=blue>Maximum</color>. Der Punkt mit dem niedrigsten Wert ist das <color=blue>Minimum</color>. Der gebräuchliche Name für diese Punkte ist <color=blue>Extreme</color>.",
+            "uses": "Liniendiagramme sind in einer Vielzahl von realen Szenarien hilfreich. Zum Beispiel werden sie in der Finanzwelt verwendet, um Aktienkurse im Laufe der Zeit zu zeigen, im Geschäftsleben, um Einnahmen und Ausgaben zu verfolgen, oder in der Medizin, um Gesundheitsindikatoren von Patienten wie die Herzfrequenz zu überwachen."
+          },
+          "questions": {
+          },
+          "mistakeFeedbacks": {
+          },
+          "successFeedbacks": {
+          }
+        },
+        "axes": {
+          "informationChunks": {
+            "axesIntro": "Fassen wir zusammen, was wir gerade über Achsen gelernt haben. Unser Diagramm hat zwei Achsen: die horizontale <color=red>x-Achse</color> und die vertikale <color=blue>y-Achse</color>. Die x-Achse zeigt Daten (Tage des Monats), und die y-Achse zeigt die Temperatur (°C).",
+            "axesAssignment": "Klar, ich kann dir helfen, diese Achsen im Diagramm zu beschriften. Ziehe die Beschriftungen aus dem rechten Panel an die richtigen Stellen im Diagramm."
+          },
+          "questions": {
+          },
+          "mistakeFeedbacks": {
+            "xAxisMisidentified": "Hmm, das sieht nicht richtig aus. Die x-Achse sollte Werte darstellen, die die Tage des Monats repräsentieren. \n -25 Punkte.",
+            "yAxisMisidentified": "Nicht ganz. Die y-Achse sollte die Temperatur in Grad Celsius anzeigen. \n -25 Punkte."
+          },
+          "successFeedbacks": {
+            "xAxisIdentified": "Ja, genau! Das ist die x-Achse, die die Tage des Monats zeigt. \n +60 Punkte!",
+            "yAxisIdentified": "Genau! Das ist die y-Achse, die die Temperatur in Grad Celsius zeigt. \n +60 Punkte!"
+          }
+        },
+        "pointPlotting": {
+          "informationChunks": {
+            "pointsIntro": "Hier ist ein ähnliches Diagramm, aber es sollte die Temperaturen für Juli anzeigen. Es ist momentan leer. Kannst du die Punkte aus dem rechten Panel an den richtigen Stellen im Diagramm platzieren? Scrolle durch das rechte Panel, um alle Datenpunkte zu finden. <color=red>Achtung:</color> Die Achsen - das Raster - sind nicht korrekt gezeichnet, die Achsen für die Tage 25.7. und 30.7. fehlen, aber Punkte sind für alle Daten vorhanden. Der erste und letzte Punkt passen genau dahin, wo sie sollten. Andere Punkte sind ein wenig nach links verschoben. Wenn du sie nicht platzieren kannst, ruf mich bitte an."
+          },
+          "questions": {
+          },
+          "mistakeFeedbacks": {
+            "incorrectPlacement": "Hmm, das scheint nicht der richtige Platz für diesen Wert zu sein. \n 0 Punkte."
+          },
+          "successFeedbacks": {
+            "correctPlacement": "Genau! Das ist der richtige Platz für diesen Punkt. \n +50 Punkte!"
+          }
+        },
+        "lineDrawing": {
+          "informationChunks": {
+            "pointsIntro": "Jetzt, da alle Datenpunkte im Diagramm sind, müssen wir sie nur noch mit einer Linie verbinden. Zeichne eine Linie, um alle Datenpunkte von links nach rechts zu verbinden, indem du über die Punkte ziehst."
+          },
+          "questions": {
+          },
+          "mistakeFeedbacks": {
+            "incompleteConnection": "Die Linie muss alle Punkte im Diagramm verbinden. Es scheint, als hättest du einige vergessen. -25 Punkte.",
+            "unorderedConnection": "Alle Punkte müssen in der Reihenfolge von links nach rechts verbunden werden. Einige scheinen nicht an der richtigen Stelle zu sein. -25 Punkte."
+          },
+          "successFeedbacks": {
+            "correctConnection": "Gut gemacht! Du hast ein schönes Liniendiagramm erstellt. \n +60 Punkte!"
+          }
+        },
+        "interpretation": {
+          "informationChunks": {
+            "findingIntro": "Jetzt schauen wir, welche Informationen wir aus dem Diagramm gewinnen können. Der höchste Wert auf der y-Achse ist das <color=red>Maximum</color>, der heißeste aufgezeichnete Tag. Der niedrigste Wert ist das <color=blue>Minimum</color>, der kälteste Tag. Wir können auch Trends beobachten, die zeigen, in welchen Zeiträumen es über mehrere Tage hinweg heißer oder kälter wurde.",
+            "findMaxAssignment": "Lass uns mit dem Finden des Maximalpunkts im Diagramm beginnen. Tippe auf den <color=red>Maximalpunkt</color>.",
+            "findMinAssignment": "Super, du hast das Maximum gefunden! Kannst du jetzt den <color=blue>Minimalpunkt</color> zeigen?",
+            "findTrendUpAssignment": "Schauen wir uns die Trends an. Kannst du die Bereiche mit <color=red>steigenden Temperaturtrends</color> hervorheben, indem du die Punkte im Diagramm verbindest?",
+            "findTrendDownAssignment": "Super, jetzt hebe die Bereiche mit <color=blue>sinkenden Temperaturtrends</color> hervor."
+          },
+          "questions": {
+          },
+          "mistakeFeedbacks": {
+            "maxMisidentified": "Das ist nicht das Maximum. Das Maximum ist der Punkt mit dem höchsten Wert auf der y-Achse. \n -25 Punkte.",
+            "minMisidentified": "Das ist nicht das Minimum. Das Minimum ist der Punkt mit dem niedrigsten Wert auf der y-Achse. \n -25 Punkte.",
+            "incompleteConnection": "Es scheint, als hättest du einige Punkte in deiner Verbindung übersehen. \n -25 Punkte.",
+            "unorderedConnection": "Es sieht so aus, als hättest du einige zusätzliche Punkte in deiner Verbindung aufgenommen. \n -25 Punkte.",
+            "incorrectTendencyConnection": "Du hast einen Trend gefunden, aber geht er in die richtige Richtung? \n -25 Punkte.",
+            "tooShortTrendConnection": "Ein Trend sollte über mehrere Tage hinweg einen kontinuierlichen Anstieg oder Rückgang zeigen. Deine Verbindung muss länger sein. \n -25 Punkte."
+          },
+          "successFeedbacks": {
+            "maxIdentified": "Genau, du hast das Maximum gefunden! \n +50 Punkte!",
+            "minIdentified": "Richtig, das ist das Minimum! \n +50 Punkte!",
+            "trendUpIdentified": "Genau, das ist ein steigender Trend! \n +50 Punkte!",
+            "trendDownIdentified": "Richtig! Das ist ein sinkender Trend! \n +50 Punkte!"
+          }
+        },
+        "evaluation": {
+          "informationChunks": {
+          },
+          "questions": {
+          },
+          "mistakeFeedbacks": {
+          },
+          "successFeedbacks": {
+          }
+        }
+      }
+    },
+    "areaChart": {
+      "activityTexts": {
+        "introduction": {
+          "informationChunks": {
+            "chartIntro": "In diesem Kapitel tauchen wir in <color=blue>Flächendiagramme</color> ein. Flächendiagramme sind wie Liniendiagramme, aber cooler, weil sie eine <color=blue>ausgefüllte Fläche</color> verwenden, die das Volumen oder die Größe zusammen mit den Trends, die man aus Liniendiagrammen kennt, zeigt.",
+            "keyComponents": "Da Flächendiagramme im Grunde verbesserte Liniendiagramme sind, haben sie die gleichen Grundbestandteile. Wir haben Achsen, Datenpunkte und die verbindende Linie, genau wie in Liniendiagrammen. In der Regel zeigt die x-Achse die Zeit an und die y-Achse die Größe (Magnitude) dessen, was wir messen.",
+            "areaReveal": "Anders als bei Liniendiagrammen heben sich die Datenpunkte nicht so stark ab, weil die <color=blue>ausgefüllte Fläche</color> der Star der Show ist. Diese ausgefüllte Fläche zeigt die Größe dessen, was wir zu einem bestimmten Zeitpunkt messen. Aber wo ist die <color=blue>ausgefüllte Fläche</color>? Versuche, nach links und rechts über das Diagramm zu ziehen, um sie sichtbar zu machen!",
+            "areaExplanation": "Schau dir das an: Dieses Diagramm zeigt den <color=blue>kumulierten Wert</color> der Regenfälle über einen Monat an einem bestimmten Ort. Der Trend geht nur nach oben, weil die Gesamtregenmenge mit der Zeit nicht weniger werden kann. Im rechten Panel kannst du die genaue Menge des Regenfalls bis zum ausgewählten Datum sehen.",
+            "visibleInfo": "Flächendiagramme helfen dir, den kumulierten Wert von etwas im Laufe der Zeit zu sehen, nicht nur einzelne Datenpunkte. Du kannst sowohl den Trend als auch die Größen der Werte sehen. In diesem Beispiel bedeutet ein steilerer Abschnitt, dass in dieser Zeit mehr Regen gefallen ist. Flache Abschnitte bedeuten wenig oder keinen Regen.",
+            "uses": "Wir können Flächendiagramme verwenden, um Dinge wie die kumulierte Regen- oder Schneemenge über eine Saison, die Verschmutzungsgrade oder den CO2-Fußabdruck im Laufe der Zeit zu visualisieren. Sie sind auch im Finanzwesen nützlich, um Verkaufsdaten oder Lagerbestände zu zeigen, und um den Website-Verkehr wie Besucher oder Seitenaufrufe zu verfolgen."
+          },
+          "questions": {
+          },
+          "mistakeFeedbacks": {
+          },
+          "successFeedbacks": {
+          }
+        },
+        "comparison": {
+          "informationChunks": {
+            "activityIntro": "Jetzt sehen wir, wie Flächendiagramme verschiedene Datensätze vergleichen können. Unten siehst du zwei Flächendiagramme, die den monatlichen Niederschlag im Jahr 2023 zeigen. Das linke Diagramm ist für Innsbruck, eine Stadt in den österreichischen Alpen mit gemäßigtem Klima. Das rechte Diagramm ist für Tutunendo, Kolumbien, im tropischen Regenwald in der Nähe des Äquators. Nimm dir einen Moment, um sie dir anzusehen.",
+            "linkedAxes": "Auf den ersten Blick sehen beide Diagramme mit ihren Spitzen und Tälern ähnlich aus. Aber schau dir die y-Achsen genau an – die Skalen sind sehr unterschiedlich. Klicke auf den Button im rechten Panel, um die Skalen der vertikalen Achsen zu verknüpfen und zu sehen, was passiert. Du kannst zwischen verknüpften und unverknüpften y-Achsen wechseln, um einzelne Werte zu vergleichen und ein klareres Bild zu bekommen.",
+            "scalesInfo": "Denke daran, dass die Wahl der richtigen y-Achsen-Skala entscheidend ist. Bei einem einzelnen Diagramm wäre es sinnlos, 1500 als Maximum für Innsbruck festzulegen. Das würde wichtige Details verbergen, die Trends weniger auffällig machen und es schwieriger machen, den Unterschied zwischen Min- und Max-Werten zu erkennen. Aber beim Vergleichen von Diagrammen können unterschiedliche Skalen irreführend sein. Die Werte für Innsbruck und Tutunendo sehen auf ihren eigenen Skalen ähnlich aus, sind jedoch auf einer einheitlichen Skala sehr unterschiedlich." 
+          },
+          "questions": {
+            "question1": {
+              "question": "Schauen wir, was wir aus diesen Diagrammen lernen können. Tippe auf die Optionen, die im rechten Panel erscheinen, um die Fragen zu beantworten. Welcher Ort hatte im Jahr 2023 den insgesamt höheren Niederschlag?",
+              "options": [
+                {
+                  "option": "Tutunendo",
+                  "correct": true,
+                  "feedback": "Ja, genau, Tutunendo hatte 2023 deutlich mehr Niederschlag. \n +50 Punkte!"
+                },
+                {
+                  "option": "Innsbruck",
+                  "correct": false,
+                  "feedback": "Bist du sicher? Du kannst versuchen, den Verknüpfen- und Entknüpfen-Button zu verwenden, um die Skalen besser zu vergleichen. \n -25 Punkte."
+                }
+              ]
+            },
+            "question2": {
+              "question": "Welcher Monat hatte in der zweiten Hälfte des Jahres 2023 den geringsten Niederschlag in Innsbruck?",
+              "options": [
+                {
+                  "option": "Januar",
+                  "correct": false,
+                  "feedback": "Januar hatte tatsächlich den geringsten Niederschlag insgesamt, aber das ist in der ersten Jahreshälfte. \n -25 Punkte."
+                },
+                {
+                  "option": "September",
+                  "correct": false,
+                  "feedback": "September hatte wenig Niederschlag, aber war es der geringste? \n -25 Punkte."
+                },
+                {
+                  "option": "Februar",
+                  "correct": false,
+                  "feedback": "Februar hatte wenig Niederschlag insgesamt, aber das ist in der ersten Jahreshälfte. \n -25 Punkte."
+                },
+                {
+                  "option": "Oktober",
+                  "correct": true,
+                  "feedback": "Genau, Oktober hatte den insgesamt geringsten Niederschlag. \n +50 Punkte!"
+                },
+                {
+                  "option": "Dezember",
+                  "correct": false,
+                  "feedback": "Nein, Dezember hatte insgesamt ziemlich viel Niederschlag. \n -25 Punkte."
+                }
+              ]
+            },
+            "question3": {
+              "question": "Welcher Monat in Innsbruck hatte mehr Niederschlag als in Tutunendo?",
+              "options": [
+                {
+                  "option": "Mai",
+                  "correct": false,
+                  "feedback": "Das scheint nicht richtig zu sein. Versuche, den Verknüpfen- und Entknüpfen-Button zu verwenden, um die Skalen besser zu vergleichen. \n -25 Punkte."
+                },
+                {
+                  "option": "Dezember",
+                  "correct": false,
+                  "feedback": "Das scheint nicht richtig zu sein. Versuche, den Verknüpfen- und Entknüpfen-Button zu verwenden, um die Skalen besser zu vergleichen. \n -25 Punkte."
+                },
+                {
+                  "option": "Kein",
+                  "correct": true,
+                  "feedback": "Precisely, this was a trick question. Once you adjust the scales, it is easily visible. \n +50 Punkte!"
+                },
+                {
+                  "option": "Februar",
+                  "correct": false,
+                  "feedback": "Das scheint nicht richtig zu sein. Versuche, den Verknüpfen- und Entknüpfen-Button zu verwenden, um die Skalen besser zu vergleichen. \n -25 Punkte."
+                }
+              ]
+            }
+          },
+          "mistakeFeedbacks": {
+          },
+          "successFeedbacks": {
+          }
+        },
+        "evaluation": {
+          "informationChunks": {
+          },
+          "questions": {
+          },
+          "mistakeFeedbacks": {
+          },
+          "successFeedbacks": {
+          }
+        }
+      }
+    },
+    "stackedAreaChart": {
+      "activityTexts": {
+        "introduction": {
+          "informationChunks": {
+            "chartIntro": "Das Flächendiagramm aus dem letzten Level war eine Erweiterung des Liniendiagramms. Jetzt werden wir uns <color=blue>gestapelte Flächendiagramme</color> ansehen. Im Grunde ist es ein Flächendiagramm, bei dem die Flächen übereinander gestapelt sind.",
+            "linesIntro": "Hier haben wir ein Liniendiagramm mit mehreren Datenkategorien, die alle in einem Diagramm dargestellt sind. Wir können das tun, weil jede Kategorie die gleichen x-Achsen-Werte (Datum) und y-Achsen-Werte (Menge der freigesetzten CO2-Emissionen) teilt.",
+            "stackingMotivation": "Das ist großartig, um zu sehen, wie viel CO2 durch die Verbrennung von Kohle im Jahr 1978 freigesetzt wurde. Aber was, wenn du den gesamten CO2-Ausstoß aus allen Quellen im Jahr 2020 wissen möchtest? Du müsstest die Werte für Gas, Öl und Kohle selbst addieren. Das ist zu viel Arbeit, oder? Wir können es einfacher machen.",
+            "stackingExample": "Drücke den Stacking-Button oben im rechten Panel und sieh, was passiert. Die Linien verwandeln sich in Flächendiagramme und stapeln sich! Wenn du jetzt die Gesamtemissionen für ein Jahr wissen möchtest, lies einfach das Diagramm ab. Keine Mathematik nötig!",
+            "cumulatingIntro": "Wenn du nur die Werte für Kohle und Öl, aber nicht für Gas wissen möchtest, kannst du das direkt aus dem Diagramm ablesen. Jeder Punkt im gestapelten Flächendiagramm zeigt den kumulierten Wert aller Punkte darunter.",
+            "cumulatingValuesUses": "Aber was, wenn du die Werte für Kohle und Gas sehen möchtest, nicht für Öl? Du kannst nicht einfach den Wert für Gas ablesen, weil er Öl nicht einschließt, und du kannst den Wert für Kohle nicht ablesen, weil er bereits Öl einschließt. Beachte, dass Öl unter Kohle liegt, sodass die gestapelten Werte zusammengezählt werden. Zum Glück gibt es dafür ein Werkzeug. Klicke auf die Kategorienamen im rechten Panel, um Kategorien im Diagramm ein- oder auszuschalten.",
+            "cumulatedAreasControl": "Du kannst Öl ausschalten und nur die Daten für Kohle und Gas zusammen ablesen. Das funktioniert für jede Kategorienkombination. Verwende die Stapel- und Entstapel-Buttons, um zwischen Linien- und gestapelten Flächendiagrammen zu wechseln, und die Kategorie-Buttons, um Kategorien ein- oder auszuschalten. Auf diese Weise kannst du alle benötigten Informationen leicht aus den Daten herausziehen.",
+            "summary": "Das gestapelte Flächendiagramm zeigt Trends und kumulierte Werte wie ein Flächendiagramm. Es kombiniert aber auch Werte aus mehreren Kategorien und zeigt deren Beiträge zum Gesamtwert. Der Gesamtwert für jede Fläche ist die Summe aller zugrundeliegenden Datensätze. Wir brauchen eine <color=blue>Legende</color>, um die Flächen zu beschriften, und in diesem Beispiel dienen die Buttons mit Kategorienamen und Farben diesem Zweck.",
+            "usesAbstract": "Gestapelte Flächendiagramme sind großartig, um mehrere Kategorien desselben Datentyps zu vergleichen und ihre proportionalen Beiträge zum Ganzen zu sehen. Du kannst den kumulativen Einfluss und die allgemeinen Trends über mehrere Bereiche hinweg erkennen.",
+            "usesPractice": "In der Praxis werden gestapelte Flächendiagramme in der Finanzwelt verwendet, um Einnahmeströme im Laufe der Zeit zu verfolgen, von Demografen, um das Wachstum oder die Schrumpfung von demografischen Gruppen darzustellen, und von Umweltschützern, um die Beiträge von Treibhausgasquellen zum Klimawandel oder die Flächennutzungsanteile wie städtisch, landwirtschaftlich und wild zu erforschen."
+          },
+          "questions": {
+          },
+          "mistakeFeedbacks": {
+          },
+          "successFeedbacks": {
+          }
+        },
+        "interpretation": {
+          "informationChunks": {
+            "activityIntro": "Super, jetzt kennst du die Grundlagen der gestapelten Flächendiagramme. Zeit, dein Wissen zu testen! Bevor wir anfangen, schau dir die Werkzeuge an. Klicke auf eine Kategorie, um sie hervorzuheben. Klicke sie erneut an, um das gesamte Diagramm hervorzuheben.",
+            "visualizerWindow": "Siehst du das Fenster im rechten Panel? Klicke auf einen beliebigen Punkt im Diagramm oder ziehe darüber, um den Beitrag dieser Kategorie im Fenster zu sehen. Das <color=blue>Fenster</color> zeigt den <color=blue>Einzelwert</color> der Kategorie ohne die darunter liegenden. Lies den <color=red>kumulierten Wert</color> von der <color=red>y-Achse</color> ab. Auf diese Weise erhältst du die Vorteile sowohl eines Liniendiagramms als auch eines gestapelten Flächendiagramms. Nutze es, um die folgenden Fragen zu beantworten."
+          },
+          "questions": {
+            "question1": {
+              "question": "Welche Kategorie hatte 1950 den größten Beitrag?",
+              "options": [
+                {
+                  "option": "Gas",
+                  "correct": false,
+                  "feedback": "Es gab in diesem Jahr größere Beiträge. \n -25 Punkte."
+                },
+                {
+                  "option": "Öl",
+                  "correct": false,
+                  "feedback": "Es gab in diesem Jahr größere Beitragskategorien. \n -25 Punkte."
+                },
+                {
+                  "option": "Kohle",
+                  "correct": true,
+                  "feedback": "Ja, genau. Kohle war der größte Beitrag im Jahr 1950. \n +50 Punkte!"
+                }
+              ]
+            },
+            "question2": {
+              "question": "Welche Kategorie wuchs zwischen 1964 und 1978 am meisten in ihrem Beitrag?",
+              "options": [
+                {
+                  "option": "Gas",
+                  "correct": false,
+                  "feedback": "Du kannst versuchen, über die Kategorien zu ziehen, um die Werte im Laufe der Jahre zu überprüfen. \n -25 Punkte."
+                },
+                {
+                  "option": "Öl",
+                  "correct": true,
+                  "feedback": "Ja, genau. Öl wuchs in den 1960er Jahren am meisten. \n +50 Punkte!"
+                },
+                {
+                  "option": "Kohle",
+                  "correct": false,
+                  "feedback": "Du kannst versuchen, über die Kategorien zu ziehen, um die Werte im Laufe der Jahre zu überprüfen. \n -25 Punkte."
+                }
+              ]
+            },
+            "question3": {
+              "question": "Wie hoch war der Beitrag aller Kategorien zusammen im Jahr 1993?",
+              "options": [
+                {
+                  "option": "31 mil. tons",
+                  "correct": false,
+                  "feedback": "Das scheint zu wenig zu sein. Berücksichtigst du alle notwendigen Bereiche? \n -25 Punkte."
+                },
+                {
+                  "option": "14.8 mil. tons",
+                  "correct": false,
+                  "feedback": "Das scheint zu wenig zu sein. Berücksichtigst du alle notwendigen Bereiche? \n -25 Punkte."
+                },
+                {
+                  "option": " 57 mil. tons",
+                  "correct": true,
+                  "feedback": "Genau, du kannst den Wert direkt aus dem Diagramm ablesen. \n +50 Punkte!"
+                },
+                {
+                  "option": "68 mil. tons",
+                  "correct": false,
+                  "feedback": "Das ist viel, bist du sicher, dass du das richtige Jahr ansiehst? \n -25 Punkte."
+                }
+              ]
+            }
+          }
+        },
+        "evaluation": {
+          "informationChunks": {
+          },
+          "questions": {
+          },
+          "mistakeFeedbacks": {
+          },
+          "successFeedbacks": {
+          }
+        }
+      }
+    },
+    "streamGraph": {
+      "activityTexts": {
+        "introductionBasic": {
+          "informationChunks": {
+            "chartIntro": "In diesem letzten Kapitel fassen wir alles zusammen, um uns <color=blue>Streamgraphs</color> anzusehen. Ja, du hast es erraten, ein Streamgraph ist eine weitere Art der Visualisierung, die auf dem gestapelten Flächendiagramm basiert.",
+            "dataIntro": "Du siehst unten eines vorbereitet. Es zeigt, wie verschiedene Weltregionen von 1950 bis 2022 zu den Treibhausgasemissionen beigetragen haben. Schau dir die Legende an und versuche, Kategorien zu verbergen oder anzuzeigen, indem du auf die Schaltflächen mit den Beschriftungen klickst.",
+            "centering": "Was, wenn wir mehr an den Anteilen jeder Kategorie im Laufe der Zeit interessiert sind als am Gesamtwert? Wir können die gestapelten Bereiche in die Mitte des Diagramms verschieben und die Daten entlang einer zentralen horizontalen Achse verteilen, um eine klarere Ansicht zu erhalten. Tippe auf die Zentrierungsschaltfläche, um die Stapelachse zwischen der unteren x-Achse und der Mitte des Diagramms zu wechseln.",
+            "nameExplanation": "Beachte, wie das Diagramm symmetrisch um die Mitte herum fließt wie ein Fluss? Die Kategorien sehen aus wie <color=blue>Ströme</color>, die sich durch die Zeit bewegen, weshalb wir dies ein <color=blue>Streamgraph</color> oder einen <color=blue>Themenfluss</color> nennen.",
+            "curving": "Die Kanten der Kategorien können besonders bei kleineren Datensätzen gezackt aussehen. Wir glätten diese Kanten normalerweise, um den Strömen ein natürlicheres Aussehen zu verleihen. Tippe auf die oberste Schaltfläche im rechten Panel, um die Glättung ein- oder auszuschalten. Glattere Linien sehen bei kleineren Datensätzen möglicherweise besser aus.",
+            "usesAbstract": "Streamgraphs eignen sich hervorragend, um dynamische Datenänderungen und Anteile im Laufe der Zeit zu beobachten. Du kannst das Wachstum oder den Rückgang einer Kategorie im Vergleich zu anderen erkennen und Trends und Muster sehen.",
+            "goodBadUses": "Du wirst feststellen, dass <color=blue>Anteile</color> und <color=blue>Trends</color> leicht zu erkennen sind, aber die zentrale Ausrichtung macht es schwieriger, spezifische Werte abzulesen. Deshalb sind Streamgraphs großartig für schnelle, visuell ansprechende Vergleiche, aber nicht so sehr, um Gesamtwerte zu bestimmen. Gestapelte Flächendiagramme sind dafür besser geeignet.",
+            "usesPractice": "In der Praxis werden Streamgraphs in der Wirtschaft verwendet, um Veränderungen in Marktsektoren oder im Verbraucherverhalten zu zeigen, in der Unterhaltung, um Trends im Laufe der Zeit zu verfolgen, im Sport, um Leistungstrends von Teams oder Spielern darzustellen, und in der Klimawissenschaft, um Veränderungen in der Biodiversität, Tierpopulationen, saisonalen Meerestemperaturen oder Energieverbrauchstrends zu zeigen und den Wechsel zu nachhaltiger Energie hervorzuheben.",
+            "constructionNote": "Beim Vergleich von Streamgraphs mit gestapelten Flächendiagrammen sehen die gleichen Kategorien und Werte möglicherweise etwas anders aus. Die Daten sind immer noch genau, aber die Zentrierung verschiebt einige Datenpunkte und ändert die Gesamtform des Diagramms. Diese Änderungen können von Hand vorgenommen werden, aber das ist mühsam, daher lassen wir dies normalerweise von Computern mit speziellen Algorithmen erledigen."
+          },
+          "questions": {
+          },
+          "mistakeFeedbacks": {
+          },
+          "successFeedbacks": {
+          }
+        },
+        "layerIdentificationBasic": {
+          "informationChunks": {
+            "chartIntro": "Jetzt erkunde die einzelnen Regionen und ihre Beiträge zu den Gesamtemissionen. Klicke auf eine Kategorie, um sie hervorzuheben, und klicke erneut, um die Hervorhebung aufzuheben. Ziehe über die Kategorien, um Wertänderungen im Laufe der Zeit im oberen rechten Panel über der Legende zu sehen.",
+            "exploreControls": "Wenn du mit der Erkundung der Daten fertig bist, gehe zur nächsten Seite."
+          },
+          "questions": {
+          },
+          "mistakeFeedbacks": {
+          },
+          "successFeedbacks": {
+          }
+        },
+        "introductionComplex": {
+          "informationChunks": {
+            "chartIntro": "Hier ist ein weiteres Beispiel für ein Streamgraph. Dieser Datensatz zeigt die Ursachen der Abholzung im Amazonas-Regenwald. Der Zeitraum ist kurz, daher haben die Ströme weniger Datenpunkte und sehen in der Mitte gezackt aus. Versuche, die Glättung einzuschalten, um den Unterschied zu sehen.",
+            "categorySizes": "Beachte, dass nicht alle Datensätze gleich groß sind. Die Abholzung für Weideflächen dominiert das Diagramm, was es schwierig macht, andere Kategorien zu sehen. Verberge die dominanteren Kategorien, indem du auf die Beschriftungen im rechten Panel klickst, um dich auf die kleineren Segmente zu konzentrieren."
+          },
+          "questions": {
+          },
+          "mistakeFeedbacks": {
+          },
+          "successFeedbacks": {
+          }
+        },
+        "layerIdentificationComplex": {
+          "informationChunks": {
+            "exploreControls": "Wie zuvor, klicke oder ziehe über die Kategorien, um sie hervorzuheben und ihre genauen Beiträge im rechten Panel zu sehen."
+          },
+          "questions": {
+          },
+          "mistakeFeedbacks": {
+          },
+          "successFeedbacks": {
+          }
+        },
+        "interpretation": {
+          "informationChunks": {
+            "chartIntro": "Dieses letzte Diagramm zeigt, wie verschiedene Regionen zu den globalen Durchschnittstemperaturänderungen als Prozentsatz des Gesamten beigetragen haben.",
+            "questionsIntro": "Studiere das Diagramm, indem du die Kategorien hervorhebst und darüber ziehst, und beobachte die Werte im rechten Panel mit der Legende. Teste dann dein Verständnis mit diesen Fragen."
+          },
+          "questions": {
+            "question1": {
+              "question": "Welche Region war über den gesamten Zeitraum der größte Beitrag?",
+              "options": [
+                {
+                  "option": "China",
+                  "correct": false,
+                  "feedback": "China war nicht einer der größten Beitragsleistenden, siehst du dir die richtige Kategorie an? \n -25 Punkte."
+                },
+                {
+                  "option": "Russland",
+                  "correct": false,
+                  "feedback": "Russland war ein großer Beitragsleistender, aber war es der größte? \n -25 Punkte."
+                },
+                {
+                  "option": "Vereinigtes Königreich",
+                  "correct": false,
+                  "feedback": "Das Vereinigte Königreich war ein großer Beitragsleistender, aber war es der größte? \n -25 Punkte."
+                },
+                {
+                  "option": "Europäische Union",
+                  "correct": false,
+                  "feedback": "Die Europäische Union war ein großer Beitragsleistender, aber war es der größte? \n -25 Punkte."
+                },
+                {
+                  "option": "Vereinigte Staaten",
+                  "correct": true,
+                  "feedback": "Ja, richtig! Die USA waren über den gesamten Zeitraum der größte Beitragsleistende. \n +50 Punkte!"
+                }
+              ]
+            },
+            "question2": {
+              "question": "Um welches Jahr hat China Europa in seinem Beitrag überholt?",
+              "options": [
+                {
+                  "option": "2000",
+                  "correct": false,
+                  "feedback": "Nein, die EU hat 2000 immer noch mehr beigetragen. \n -25 Punkte."
+                },
+                {
+                  "option": "2013",
+                  "correct": true,
+                  "feedback": "Das ist der Zeitpunkt, an dem China die EU zum ersten Mal knapp überholt hat. \n +50 Punkte."
+                },
+                {
+                  "option": "2019",
+                  "correct": false,
+                  "feedback": "Zu diesem Zeitpunkt war China seit einigen Jahren vor der EU. \n -25 Punkte."
+                },
+                {
+                  "option": "2007",
+                  "correct": false,
+                  "feedback": "Nein, die EU hat 2007 immer noch mehr beigetragen. \n -25 Punkte."
+                }
+                
+              ]
+            },
+            "question3": {
+              "question": "Wessen Beitrag ist zwischen 2010 und 2020 geschrumpft?",
+              "options": [
+                {
+                  "option": "Indien",
+                  "correct": false,
+                  "feedback": "Indien hatte einen sehr leichten, aber realen Anstieg. \n -25 Punkte."
+                },
+                {
+                  "option": "China",
+                  "correct": false,
+                  "feedback": "China wuchs weiter, wenn auch langsamer als in den Vorjahren. \n -25 Punkte."
+                },
+                {
+                  "option": "Vereinigtes Königreich",
+                  "correct": true,
+                  "feedback": "Ja, das Vereinigte Königreich hat seinen Beitrag in diesem Zeitraum fast halbiert! \n +50 Punkte!"
+                },
+                {
+                  "option": "Russland",
+                  "correct": false,
+                  "feedback": "Russland hat zwar kein massives Wachstum erlebt, aber etwas ist aufgetreten. \n -25 Punkte."
+                }
+              ]
+            }
+          },
+          "mistakeFeedbacks": {
+          },
+          "successFeedbacks": {
+          }
+        },
+        "evaluation": {
+          "informationChunks": {
+          },
+          "questions": {
+          },
+          "mistakeFeedbacks": {
+          },
+          "successFeedbacks": {
+          }
+        }
+      }
+    }
+  }
+}

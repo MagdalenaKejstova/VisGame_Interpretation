@@ -1,0 +1,626 @@
+{
+  "levelTexts": {
+    "lineChart": {
+      "activityTexts": {
+        "introduction": {
+          "informationChunks": {
+            "wilmaIntro": "Hello! My name is Wilma, and I will guide you throughout this game. You are about to embark on a quest to learn about <b><color=#639C4E>DATA VISUALIZATIONS</color></b>. There are many ways to visualize data that change over time.",
+            "wilmaIntro2": "In this game, we'll look at three of them. Each type of visualization will be first explained, and then you will solve tasks to gain points, win each level and move forward!",
+            "scoringSystem": "For each <color=#639C4E>correct</color> answer, you will receive <b><color=#639C4E>50</color></b> points, and for each <color=#639C4E>incorrect</color> answer, you will lose <b><color=#639C4E>25</color></b> points. Your goal is to collect as many points as possible to unlock the <color=#FECA47>GOLD badge</color> for each level. Once you have earned the gold badge for all levels, you will unlock the <color=#FECA47>MASTER badge</color> - one of its kind! Good luck!",
+            "badges": "Dein Ziel ist es, so viele Punkte wie möglich zu sammeln, um das <color=#FECA47>GOLD-Abzeichen</color> für jedes Level freizuschalten. Sobald du das Gold-Abzeichen in allen Levels verdient hast, schaltest du das <color=#FECA47>MASTER-Abzeichen</color> frei - das nur wahren Experten und Expertinnen vorbehalten ist! Viel Glück!",
+            "chartIntro": "This game will teach you principles of line chart, area chart, and stream graph data visualizations. We will start our journey with the simplest one - the <color=#639C4E>LINE CHART</color>. In fact, you can see one just below. It’s one of the most well-known charts - maybe you know it already?",
+            "chartDefinition": "A line chart is good at showing how a <color=#639C4E>value changes over time</color>. Generally, a line chart consists of <color=#639C4E>connected data points</color> in a coordinate system.",
+            "axes": "The base components of any chart are the <b><color=#639C4E>AXES</color></b>. A typical chart has two axes <b>perpendicular</b> to each other.",
+            "xAxis": "The <b><color=#FF7669>X-AXIS</color></b> is the <b>horizontal</b> line at the bottom. Most commonly, the X-axis shows the <color=#639C4E>time</color>. Here, you can see the <b>days of March</b>.",
+            "yAxis": "The <b><color=#5FBFB5>Y-AXIS</color></b> is the <b>vertical</b> line on the left. Usually, the Y-axis shows the <color=#639C4E>value</color>. Here, you can see the <b>temperature in degrees Celsius</b>.",
+            "dataPoints": "The <b><color=#639C4E>DOTS</color></b> in this chart represent <color=#639C4E>data POINTS</color>. Each dot signifies a <b>combination of values on the y-axis and the x-axis</b>. For example, we can see that it was about 10°C on 1.3.",
+            "line": "Finally, the <b><color=#FFD35C>LINE</color></b> connecting the dots is what makes this chart a Line Chart. It's that simple! The purpose of the line is to show us different <b><color=#639C4E>TRENDS</color></b> occurring over time. A trend means the values went up (or down) for <b>several points in a row</b>. ",
+            "example": "For example, we can see that it got progressively colder between the 14th and the 21st of March.",
+            "peeksTroughs": "Points where the line changes direction from going up to going down are called <b><color=#639C4E>PEAKS</color></b>. Troughs are points where the previously decreasing line starts going up. The <color=#639C4E>highest</color> peak and <color=#639C4E>lowest</color> trough are called <b><color=#639C4E>EXTREMES</color></b>. ",
+            "extremes": "The point with the highest value on the y-axis is the <color=#639C4E>MAXIMUM</color>. The point with the lowest value is the <color=#639C4E>MINIMUM</color>. ",
+            "uses": "Line charts are helpful in a wide variety of real-world scenarios. For example, they are used in finance to show stock prices over time, in business to track revenues and expenses, or in medicine to monitor patients' health indicators like heart rate."
+          },
+          "questions": {
+          },
+          "mistakeFeedbacks": {
+          },
+          "successFeedbacks": {
+          }
+        },
+        "axes": {
+          "informationChunks": {
+            "axesIntro1": "Lets look at another example, which shows how CO2 emissions per person in Europe have changed over time. CO2 emissions happen when carbon dioxide (CO2) is released into the air, for example, when fuel is burned in the engine of a car.",
+            "axesIntro": "We will start with axes. Our graph has two axes, the horizontal <b><color=#FF7669>x-axis</color></b> and vertical <b><color=#5FBFB5>y-axis</color></b>. Values on the x-axis represent <color=#639C4E>dates (years)</color> and values on the y-axis represent <color=#639C4E>tons of CO2 per capita</color>.",
+            "axesAssignment": "Can you help me label these axes in the graph? Drag the labels from the right panel to the graph."
+          },
+          "questions": {
+          },
+          "mistakeFeedbacks": {
+            "xAxisMisidentified": "This does not seem like the label belongs here. Values on our x-axis should represent years. \n <b>- 25 points</b>",
+            "yAxisMisidentified": "This does not seem like the label belongs here. Values on our y-axis should represent the tons of CO2. \n <b>- 25 points</b>"
+          },
+          "successFeedbacks": {
+            "xAxisIdentified": "Yes, exactly! That is the x-axis representing the years. \n <b>+ 50 points!</b>",
+            "yAxisIdentified": "Precisely! That is the y-axis representing the tons of CO2. \n <b>+ 50 points!</b>"
+          }
+        },
+        
+        "interpretation": {
+          "informationChunks": {
+            "findMaxAssignment": "Now, we will focus on the information we can read from the graph. The graph can show us the highest overall value - <b><color=#FF7669>maximum</color></b>. In this case the presented timespan shows <b>tons of CO2 per person in Europe</b>. Tap the <color=#FF7669>maximum</color> point in the graph.",
+            "findMinAssignment": "Nice, you have found the maximum! It can also show us </b><color=#5FBFB5>minimum</color></b> - the <b>lowest recorded tons of CO2</b>. Can you also point out the <color=#5FBFB5>minimum</color>?",
+            "findTrendIntro":"Now lets observe trends. These represent periods of time when it was getting colder or hotter for several days in a row. Let's try to find this information.",
+            "findTrendUpAssignment": "Can you highlight all the areas with <b><color=#D43535>trends of increasing CO2 levels</color></b> by connecting the points in the graph?",
+            "findTrendDownAssignment": "Great, now all that's left is to highlight the areas with <b><color=#406A77>trends of decreasing CO2 levels</color></b>."
+          },
+          "questions": {
+          },
+          "mistakeFeedbacks": {
+            "maxMisidentified": "That does not seem like the maximum. Maximum is the point with the highest value on the y-axis. \n <b>- 25 points</b>",
+            "minMisidentified": "That does not seem like the minimum. Minimum is the point with the lowest value on the y-axis. \n <b>- 25 points</b>",
+            "incompleteConnection": "It seems like you have missed some points in your connection. \n <b>- 25 points</b>",
+            "unorderedConnection": "It seems like you have included some extra points in your connection. \n <b>- 25 points</b>",
+            "incorrectTendencyConnection": "You have found a trend! But does it have the correct direction? \n <b>- 25 points</b>",
+            "tooShortTrendConnection": "A trend must contain a sustained growth or decrease over several days. Your connection needs to be longer. \n <b>- 25 points</b>"
+          },
+          "successFeedbacks": {
+            "maxIdentified": "Precisely, you have found the maximum! \n <b>+ 50 points!</b>",
+            "minIdentified": "You are right, that is the minimum!\n <b>+ 50 points!</b>",
+            "trendUpIdentified": "That's it, that is an increasing trend!\n <b>+ 50 points!</b>",
+            "trendDownIdentified": "Correct! That is a decreasing trend!\n <b>+ 50 points!</b>"
+          }
+        },
+
+        "multiLine": {
+          "informationChunks": {
+            "multilineintro1": "A line chart can also contain <b><color=#639C4E>multiple lines</color></b>. The advantage of this is that you can <color=#639C4E>compare</color> multiple developments.",
+            "multilineintro2": "For example, we can not only plot the CO2 emissions of <color=#35A8B7>Europe</color> in the diagram, but also those of different <color=#639C4E>world regions</color>!",
+            "multilineintro22": "We can do this because the data in each category share the <color=#639C4E>same type of values</color> on the <color=#639C4E>x-axis</color> (date) and the <color=#639C4E>y-axis</color> (amount of CO2 emissions per capita in region).",
+            "multilineintro3": "To do this, all the individual points are once again plotted in the coordinate system. <color=#639C4E>Different colors</color> are used for <color=#639C4E>better distinction of the regions</color>.",
+            "multilineintro4": "Then, all points of the <color=#639C4E>same color</color> are <color=#639C4E>connected with a line</color>. Press buttons of other world regions in the interactive panel to visualize all lines.",
+            "multilineintro5": "Great! Now the different world regions can be compared. You can now see that <color=#406A77>Australia</color>, <color=#CBEDB2>North America</color> and <color=#35A8B7>Europe</color> emit much more CO2 per person than <color=#FFD35C>Asia</color>, <color=#FE9748>South America</color> and <color=#D43535>Africa!</color>",
+            "multilineintro6": "Additionally, you can see the global changes of CO2 emissions at a glance. These are also called <b><color=#639C4E>GLOBAL TRENDS</color></b>."
+
+          },
+          "questions": {
+          },
+          "mistakeFeedbacks": {
+            
+          },
+          "successFeedbacks": {
+            
+          }
+        },
+
+        "evaluation": {
+          "informationChunks": {
+          },
+          "questions": {
+          },
+          "mistakeFeedbacks": {
+          },
+          "successFeedbacks": {
+          }
+        }
+      }
+    },
+    "areaChart": {
+      "activityTexts": {
+        "introduction": {
+          "informationChunks": {
+            "chartIntro": "Let's move forward and check out <b><color=#639C4E>AREA CHARTS</color></b>. They're like line charts but with a <color=#639C4E>filled area</color> to highlight volume or size, along with the trend from the line.",
+            "keyComponents": "The basics are the same —> <color=#639C4E>axes, data points, and the connecting line</color>, just like in a line chart. Usually, the x-axis shows <color=#639C4E>time</color>, and the y-axis shows the <color=#639C4E>value</color>.", 
+            "keyComponents2": "In area charts, the <b><color=#639C4E>filled area</color></b> is the main focus, so data points might not be highlighted.",
+            "areaReveal": "Wondering where the <color=#639C4E>filled area</color> is? Try dragging <b>left to right</b> on the graph to reveal it!",
+            "areaExplanation": "This chart shows the <color=#639C4E>total rainfall</color> over a month. The trend only goes up since <color=#639C4E>the total can’t decrease</color>. Check the exact amount on the right panel.",
+            "visibleInfo": "Area charts can show the <color=#639C4E>total value over time</color>, not just <color=#639C4E>trends</color>. Steeper sections mean more rain, and flat sections show little or no rain.",
+            "uses": "Area charts are useful for showing cumulative data like rainfall, pollution, sales, inventory, or website traffic over time."
+          },
+          "questions": {
+          },
+          "mistakeFeedbacks": {
+          },
+          "successFeedbacks": {
+          }
+        },
+        "comparison": {
+          "informationChunks": {
+            "activityIntro": "Let’s see how area charts can compare different data. Below are two charts showing monthly rainfall in 2023.",
+            "activityIntro2": "The left is for Innsbruck, Austria, with a moderate climate, and the right is for Tutunendo, Colombia, in a tropical rainforest. Take a moment to examine both charts.",
+            "linkedAxes": "At first glance, the graphs look similar, but check the y-axes closely. The scales are different. Click the button in the right panel to link the scales and see the difference. You can switch between linked and unlinked y-axes to compare values more easily.",
+            "scalesInfo": "Choosing the right y-axis scale helps make data clear. For one chart, using a maximum of 1500 for Innsbruck would hide trends and make it hard to read.", 
+            "scalesInfo2": "But when comparing charts, using different scales can be misleading. Although the charts for Innsbruck and Tutunendo look similar on their own scales, the difference becomes clear when using the same scale.",
+            "questionsIntro": "Now, let's see what we can learn from these charts. Tap the options in the right panel to answer the questions."
+          },
+          "questions": {
+            "question1": {
+              "question": "Which place had the higher overall rainfall in 2023?",
+              "options": [
+                {
+                  "option": "Tutunengo",
+                  "correct": true,
+                  "feedback": "Yes, that's right, Tutunengo had vastly more precipitation in 2023.\n <b>+ 50 points!</b>"
+                },
+                {
+                  "option": "Innsbruck",
+                  "correct": false,
+                  "feedback": "Are you sure? You can try to use the link and unlink button to better compare the scales. \n <b>- 25 points</b>"
+                }
+              ]
+            },
+            "question2": {
+              "question": "Which month has seen the least rainfall in Innsbruck in the second half of 2023?",
+              "options": [
+                {
+                  "option": "January",
+                  "correct": false,
+                  "feedback": "January indeed had the lowest overall rainfall, but it's in the first half of the year. \n <b>- 25 points</b>"
+                },
+                {
+                  "option": "September",
+                  "correct": false,
+                  "feedback": "September had a low rainfall, but was it the lowest? \n <b>- 25 points</b>"
+                },
+                {
+                  "option": "February",
+                  "correct": false,
+                  "feedback": "February had a low overall rainfall, but it's in the first half of the year. \n <b>- 25 points</b>"
+                },
+                {
+                  "option": "October",
+                  "correct": true,
+                  "feedback": "Exactly, October had the overall lowest rainfall. \n <b>+ 50 points!</b>"
+                },
+                {
+                  "option": "November",
+                  "correct": false,
+                  "feedback": "November had a relatively low rainfall, but was it the lowest? \n <b>- 25 points</b>"
+                }
+              ]
+            },
+            "question3": {
+              "question": "What was the largest total difference in rainfall between months considering both Innsbruck and Tutunendo?",
+              "options": [
+                {
+                  "option": "900 mm",
+                  "correct": false,
+                  "feedback": "It is a big difference, but are you sure there's not a bigger value? \n <b>- 25 points</b>"
+                },
+                {
+                  "option": "1200 mm",
+                  "correct": true,
+                  "feedback": "Yes, as you can see, there was a huge difference between February and August in Tutunengo.  \n <b>+ 50 points!</b>"
+                },
+                {
+                  "option": "240 mm",
+                  "correct": false,
+                  "feedback": "That's not a lot, are you sure there was not a bigger difference? \n <b>- 25 points</b>"
+                },
+                {
+                  "option": "300 mm",
+                  "correct": false,
+                  "feedback": "Unfortunately that is not right. You can try using the link and unlink button to better compare the scales. \n <b>- 25 points</b>"
+                }
+              ]
+            },
+            "question4": {
+              "question": "Which month in Innsbruck had higher rainfall than in Tutunengo?",
+              "options": [
+                {
+                  "option": "May",
+                  "correct": false,
+                  "feedback": "That does not seem right. You can try using the link and unlink button to better compare the scales. \n <b>- 25 points</b>"
+                },
+                {
+                  "option": "December",
+                  "correct": false,
+                  "feedback": "That does not seem right. You can try using the link and unlink button to better compare the scales. \n <b>- 25 points</b>"
+                },
+                {
+                  "option": "None",
+                  "correct": true,
+                  "feedback": "Precisely, this was a trick question. Once you adjust the scales, it is easily visible. \n <b>+ 50 points!</b>"
+                },
+                {
+                  "option": "February",
+                  "correct": false,
+                  "feedback": "That does not seem right. You can try using the link and unlink button to better compare the scales. \n <b>- 25 points</b>"
+                }
+              ]
+            }
+          },
+          "mistakeFeedbacks": {
+          },
+          "successFeedbacks": {
+          }
+        },
+        "evaluation": {
+          "informationChunks": {
+          },
+          "questions": {
+          },
+          "mistakeFeedbacks": {
+          },
+          "successFeedbacks": {
+          }
+        }
+      }
+    },
+    "stackedAreaChart": {
+      "activityTexts": {
+        "introduction": {
+          "informationChunks": {
+            "chartIntro": "The area chart in the previous level was an extension of simple line chart. Now, we will look at <b><color=#639C4E>STACKED AREA CHART</color></b>. As you might have guessed, it's an extension of the line chart with multiple lines = <color=#639C4E>multiple categories</color>.",
+            "reminder": "Reminder! We can plot multiple categories into a single graph only because the <color=#639C4E>data share the same type of values</color>, in this example years on x-axis and amount of released CO2 emissions on y-axis.",
+            "remind": "We use a <color=#639C4E>legend</color> to label each area, so we know which part is <color=#406A77>gas</color>, <color=#FFD35C>oil</color>, or <color=#D43535>coal</color>. The buttons with names and colors do this job.",
+            "linesIntro": "A line chart can show how much CO2 came from <color=#D43535>coal</color> in 1960. But what if we want to know the total CO2 from <color=#D43535>coal</color>, <color=#406A77>gas</color>, and <color=#FFD35C>oil</color> in 1960?",
+            "linesIntro2": "Normally, we would have to <color=#639C4E>add them up</color>. The stacked area chart does this for us! Try pressing the stacking button on the top of the right panel to see it in action.",
+            "stackingMotivation": "In a stacked area chart, all the categories are <color=#639C4E>'stacked'</color> on top of each other. In this example, each point is created by <color=#639C4E>adding values</color> of <color=#406A77>gass</color>, <color=#FFD35C>oil</color>, and <color=#D43535>coal</color> per each year. Can you see how value in 1960 was created?",
+            "stackingExample": "Value in year <color=#639C4E>1960</color> = <color=#406A77>gass</color> in 1960 + <color=#FFD35C>oil</color> in 1960 + <color=#D43535>coal</color> in 1960. Specifically <color=#639C4E>1960</color> = <color=#406A77>4</color> + <color=#FFD35C>9</color> + <color=#D43535>17</color> (we can read this from line chart or table with data), so the value for year <color=#639C4E>1960 = 30</color>. This way, we can see how much each category adds to the total.",
+            "cumulatingIntro": "What if we only want to see <color=#D43535>coal</color> and <color=#406A77>gas</color>? Easy! Just click the '<color=#FFD35C>oil</color>' button to remove it from the chart. You can turn categories on or off to customize what’s shown.",
+            "cumulatingValuesUses": "You can switch between the line chart and the stacked area chart using the 'stack' and 'unstack' buttons. And use the category buttons to hide or show different parts of the chart.",
+            "cumulatedAreasControl": "Stacked area charts <color=#639C4E>show trends and total values</color>, just like regular area charts. But they also show <color=#639C4E>how different categories add up to the total</color>. The total for each year is the sum of all the categories combined.",
+            "summary": "They help us compare different categories of data and see how they add to the total. We can see the big picture and how each part contributes."
+          },
+          "questions": {
+          },
+          "mistakeFeedbacks": {
+          },
+          "successFeedbacks": {
+          }
+        },
+        "interpretation": {
+          "informationChunks": {
+            "activityIntro": "Great! Now that you know about stacked area charts, it’s time to test what you’ve learned. Before we begin, check out the tools you can use. <color=#639C4E>Click on any category</color> to highlight it, and click again to highlight back the whole chart.",
+            "visualizerWindow": "See the window in the right panel? You can click or drag on the chart to see the selected category’s value in this window. The <color=#639C4E>window</color> shows the category’s <color=#639C4E>individual value</color> without including the ones below it. You can read the <color=#639C4E>total value</color> from the <color=#639C4E>y-axis</color>. This combines the benefits of both line and stacked area charts. Use this to answer the next questions."
+          },
+          "questions": {
+            "question1": {
+              "question": "Which category had the largest contribution in 1955?",
+              "options": [
+                {
+                  "option": "Gas",
+                  "correct": false,
+                  "feedback": "There were larger contributors in this year. \n <b>- 25 points</b>"
+                },
+                {
+                  "option": "Oil",
+                  "correct": false,
+                  "feedback": "There were larger contributors in this year. \n <b>- 25 points</b>"
+                },
+                {
+                  "option": "Coal",
+                  "correct": true,
+                  "feedback": "Yes, that's right. Coal was the biggest contributor in 1955. \n <b>+ 50 points!</b>"
+                }
+              ]
+            },
+            "question2": {
+              "question": "Which category grew the most in its contribution throughout the 1960s?",
+              "options": [
+                {
+                  "option": "Gas",
+                  "correct": false,
+                  "feedback": "You can try dragging across the categories to inspect values throughout th 1960s. \n <b>- 25 points</b>"
+                },
+                {
+                  "option": "Oil",
+                  "correct": true,
+                  "feedback": "Yes, that's right. Oil grew the most in the 1960s. \n <b>+ 50 points!</b>"
+                },
+                {
+                  "option": "Coal",
+                  "correct": false,
+                  "feedback": "You can try dragging across the categories to inspect values throughout th 1960s. \n <b>- 25 points</b>"
+                }
+              ]
+            },
+            "question3": {
+              "question": "What was the contribution of all categories combined in 1969?",
+              "options": [
+                {
+                  "option": "31 mil. tons",
+                  "correct": false,
+                  "feedback": "That seems too little. Are you including all the necessary areas? \n <b>- 25 points</b>"
+                },
+                {
+                  "option": "14.8 mil. tons",
+                  "correct": false,
+                  "feedback": "That seems too little. Are you including all the necessary areas? \n <b>- 25 points</b>"
+                },
+                {
+                  "option": "48 mil. tons",
+                  "correct": true,
+                  "feedback": "Precisely, you can just read the value directly from graph. \n <b>+ 50 points!</b>"
+                },
+                {
+                  "option": "65 mil. tons",
+                  "correct": false,
+                  "feedback": "That is a lot, are you sure you are looking at the right year? \n <b>- 25 points</b>"
+                }
+              ]
+            },
+            "question4": {
+              "question": "When did the gas really started to be used?",
+              "options": [
+                {
+                  "option": "1960",
+                  "correct": true,
+                  "feedback": "That's exactly right. Prior to this year the use of gas was almost zero. \n <b>+ 50 points!</b>"
+                },
+                {
+                  "option": "1950",
+                  "correct": false,
+                  "feedback": "You might be looking at the wrong categories. \n <b>- 25 points</b>"
+                },
+                {
+                  "option": "1970",
+                  "correct": false,
+                  "feedback": "You might be looking at the wrong categories. \n <b>- 25 points</b>"
+                },
+                {
+                  "option": "2000",
+                  "correct": false,
+                  "feedback": "This doesn't seem tight. You can use the inspector to find the precise year and values. \n <b>- 25 points</b>"
+                }
+              ]
+            },
+            "question5": {
+              "question": "In which year the total emissions reached a highest peak?",
+              "options": [
+                {
+                  "option": "2015",
+                  "correct": false,
+                  "feedback": "No. There is a bigger peak."
+                },
+                {
+                  "option": "1980",
+                  "correct": false,
+                  "feedback": "No. This year was definitely not a peak. \n <b>- 25 points</b>"
+                },
+                {
+                  "option": "2004",
+                  "correct": true,
+                  "feedback": "Yes exactly! In this year emissions reached a peak. Since this year we are constantly trying to minimize them. \n <b>+ 50 points!</b>"
+                },
+                {
+                  "option": "1992",
+                  "correct": false,
+                  "feedback": "This doesn't seem tight.There is some peak, but not the highest. \n <b>- 25 points</b>"
+                }
+              ]
+            }
+          }
+        },
+        "evaluation": {
+          "informationChunks": {
+          },
+          "questions": {
+          },
+          "mistakeFeedbacks": {
+          },
+          "successFeedbacks": {
+          }
+        }
+      }
+    },
+    "streamGraph": {
+      "activityTexts": {
+        "introductionBasic": {
+          "informationChunks": {
+            "chartIntro": "Lastly, let's take a look at the <b><color=#639C4E>STREAM GRAPH</color></b>. A stream graph is a type of visualization that builds on the concept of the stacked area chart.",
+            "dataIntro": "Below is a stacked area chart showing <b><color=#639C4E>CO2 emissions per person</color></b> from different world regions between 1950 and 2022 —> similar to what we saw in the Line Chart level.",
+            "dataIntro2": "To transform this stacked area chart into a stream graph, click the <b>centering button</b>.",
+            "nameExplanation": "Notice how the graph flows around the center like a river. The categories look like <b><color=#639C4E>streams</color></b> of water moving through time. That's why we call it a <color=#639C4E>stream graph</color>or a <color=#639C4E>theme river</color>.",
+            "streamIntro": "This graph again shows the same world regions and their CO2 emissions per person from 1950 to 2022. However, in a stream graph, the <color=#639C4E>Y-axis is not as important</color>! The values are <color=#639C4E>STACKED SYMMERTICALLY</color> to create a smoother, balanced visual effect.",
+            "streamIntro2": "Stream graphs are useful when we care more about <color=#639C4E>PROPORTIONS</color> over time, rather than the exact total values.",
+            "usesAbstract": "Stream graphs are excellent for showing <b><color=#639C4E>proportions</color></b> and <b><color=#639C4E>trends</color></b> over time, helping us see which categories are growing or shrinking. However, they <color=#639C4E>don't display exact values clearly</color>, so for total values, a <b>stacked area chart</b> works better.",
+            "usesPractice": "Stream graphs are widely used in fields like <b>economics</b>, <b>entertainment</b>, <b>sports</b>, and <b>climate science</b>, where observing changes over time is key. While they look visually balanced due to their <b><color=#639C4E>symmetrical placement</color></b>, this alignment is almost impossible to done manually, therefore created automatically by a <color=#639C4E>computer algorithm</color>."
+            
+          },
+          "questions": {
+          },
+          "mistakeFeedbacks": {
+          },
+          "successFeedbacks": {
+          }
+        },
+        "layerIdentificationBasic": {
+          "informationChunks": {
+            "chartIntro": "Now, you can explore the individual regions and their precise contributions to the total amount of emissions. Click on a category to highlight it. Click on it again to cancel the highlight. Drag across categories to observe changes in values over time in the top right panel above the legend.",
+            "exploreControls": "When you are done exploring the data, you can continue to the next page."
+          },
+          "questions": {
+          },
+          "mistakeFeedbacks": {
+          },
+          "successFeedbacks": {
+          }
+        },
+        "introductionComplex": {
+          "informationChunks": {
+            "chartIntro": "Here, you can see another example of a stream graph. This dataset describes the causes of deforestation in the Amazon rainforest. The time span is short, so the streams contain fewer data points. Because of that, the flowing shapes look jagged when they are centered. You can try turning the curves on to see the difference.",
+            "categorySizes": "Notice that not all datasets are balanced in size. Deforestation for pasture dominates this graph and complicates distinguishing the other categories. You can hide the more pronounced categories from view by clicking on the category labels in the right panel to focus more on the smaller segments."
+
+          },
+          "questions": {
+          },
+          "mistakeFeedbacks": {
+          },
+          "successFeedbacks": {
+          }
+        },
+        "layerIdentificationComplex": {
+          "informationChunks": {
+            "exploreControls": "Same as the last time, you can click or drag across categories to highlight them and see their precise contributions in the right panel."
+          },
+          "questions": {
+          },
+          "mistakeFeedbacks": {
+          },
+          "successFeedbacks": {
+          }
+        },
+        "interpretation": {
+          "informationChunks": {
+            "chartIntro": "Now, you can explore the individual regions and their precise contributions to the total amount of CO2 emissions per person. Click on a category to highlight it. Click on it again to cancel the highlight. Drag across categories to observe changes in values over time in the top right panel above the legend.",
+            "questionsIntro": "If you're done observing the graph, lets test your understanding by answering the following questions."
+          },
+          "questions": {
+            "question1": {
+              "question": "Which region has the biggest rising trend in CO2 emissions per person?",
+              "options": [
+                {
+                  "option": "Europe",
+                  "correct": false,
+                  "feedback": "No, Europe has at the beginning some rising trend, but was it the highest. \n <b>- 25 points</b>"
+                },
+                {
+                  "option": "North America",
+                  "correct": false,
+                  "feedback": "North America has definitelly big emissions contribution per person, but has it the biggest rising trend? \n <b>- 25 points</b>"
+                },
+                {
+                  "option": "South America",
+                  "correct": false,
+                  "feedback": "No, South America does not have big emissions per person through the years. \n <b>- 25 points</b>"
+                },
+                {
+                  "option": "Asia",
+                  "correct": false,
+                  "feedback": "No, Asia does not have that big emissions per person through the years. \n <b>- 25 points</b>"
+                },
+                {
+                  "option": "Australia",
+                  "correct": true,
+                  "feedback": "Yes, Australia has the biggest rising overall trend. \n <b>+ 50 points!</b>"
+                }
+                
+              ]
+            },
+            "question2": {
+              "question": "Which region contributed the most to CO2 emissions in the 1950s?",
+              "options": [
+                {
+                  "option": "Europe",
+                  "correct": false,
+                  "feedback": "No, Europe did not have the biggest contribution in the 1950s. \n <b>- 25 points</b>"
+                },
+                {
+                  "option": "North America",
+                  "correct": true,
+                  "feedback": "Yes! North America had the biggest contribution in the 1950s. \n <b>+ 50 points!</b>"
+                },
+                {
+                  "option": "South America",
+                  "correct": false,
+                  "feedback": "No, South America definitely did not have the biggest contribution in the 1950s. \n <b>- 25 points</b>"
+                },
+                {
+                  "option": "Asia",
+                  "correct": false,
+                  "feedback": "No, Asia definitely did not have the biggest contribution in the 1950s. \n <b>- 25 points</b>"
+                },
+                {
+                  "option": "Australia",
+                  "correct": false,
+                  "feedback": "No. Even though Australia had a big contribution in 1950s, it was not the biggest. \n <b>- 25 points</b>"
+                }
+              ]
+            },
+            "question3": {
+              "question": "Did Europe's contribution to CO2 emissions per person increase, decrease, or stay the same from 1950 to 2022?",
+              "options": [
+                {
+                  "option": "increased",
+                  "correct": false,
+                  "feedback": "No. Are you looking at the right category? \n <b>- 25 points</b>"
+                },
+                {
+                  "option": "decreased",
+                  "correct": false,
+                  "feedback": "No. Are you looking at the right category? \n <b>- 25 points</b>"
+                },
+                {
+                  "option": "stayed the same",
+                  "correct": false,
+                  "feedback": "No. Inspect the visualization a little bit more. \n <b>- 25 points</b>"
+                },
+                {
+                  "option": "first increased, then decreased",
+                  "correct": true,
+                  "feedback": "Yes! First slightly increased up to around 1970, followed by a gradual decrease from that point onwards. \n <b>+ 50 points!</b>"
+                },
+                {
+                  "option": "first increased, then decreased",
+                  "correct": false,
+                  "feedback": "No. Look at the visualization again. \n <b>- 25 points</b>"
+                }
+              ]
+            },
+            "question4": {
+              "question": "If you wanted to reduce global CO2 emissions, which two regions would you focus on based on their contributions per person?",
+              "options": [
+                {
+                  "option": "Europe, Norht America",
+                  "correct": false,
+                  "feedback": "No. Try to find region that is having the biggest emissions per person. \n <b>- 25 points</b>"
+                },
+                {
+                  "option": "Europe, Australia",
+                  "correct": false,
+                  "feedback": "You have it almost right, but Europe has the third highest emissions per person. \n <b>- 25 points</b>"
+                },
+                {
+                  "option": "Asia, North America",
+                  "correct": false,
+                  "feedback": "No. Despite Asia's growing population, its CO2 emissions per person are small. \n <b>- 25 points</b>"
+                },
+                {
+                  "option": "Asia, Australia",
+                  "correct": false,
+                  "feedback": "No. Despite Asia's growing population, its CO2 emissions per person are small. \n <b>- 25 points</b>"
+                },
+                {
+                  "option": "Australia, North America",
+                  "correct": true,
+                  "feedback": "Yes. Despite Asia's growing population, its CO2 emissions per person are small, so reducing emissions in North America and Australia would be the most impactful for reducing global CO2 emissions per person. \n <b>+ 50 points!</b>"
+                }
+              ]
+            },
+            "question5": {
+              "question": "What does the graph tell you about the overall change in global CO2 emissions per person across all regions? Does the graph say which region is producing overall more emissions?",
+              "options": [
+                {
+                  "option": "Yes",
+                  "correct": false,
+                  "feedback": "No. The graph only shows CO2 emissions per person, not the total emissions for each region. It shows how much CO2 an average person in each region produces. For example, even though Asia has low emissions per person, it has a large population, so its total emissions are very high. \n <b>- 25 points</b>"
+                },
+                {
+                  "option": "No",
+                  "correct": true,
+                  "feedback": "Exactly! The graph only shows CO2 emissions per person, not the total emissions for each region. It shows how much CO2 an average person in each region produces. \n <b>+ 50 points!</b>"
+                }
+                
+              ]
+            }
+          },
+          "mistakeFeedbacks": {
+          },
+          "successFeedbacks": {
+          }
+        },
+        "evaluation": {
+          "informationChunks": {
+          },
+          "questions": {
+          },
+          "mistakeFeedbacks": {
+          },
+          "successFeedbacks": {
+          }
+        }
+      }
+    }
+  }
+}

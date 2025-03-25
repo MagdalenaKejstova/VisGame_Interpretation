@@ -1,0 +1,589 @@
+{
+  "levelTexts": {
+    "lineChart": {
+      "activityTexts": {
+        "introduction": {
+          "informationChunks": {
+            "wilmaIntro": "Hallo! Mein Name ist Wilma, und ich werde dich durch dieses Spiel führen. Du begibst dich auf eine Reise, um etwas über <b><color=#639C4E>DATENVISUALISIERUNGEN</color></b> zu lernen. Es gibt viele Möglichkeiten, Daten darzustellen, die sich im Laufe der Zeit ändern.",
+            "wilmaIntro2": "In diesem Spiel werden wir uns drei davon ansehen. Jede Visualisierungsart wird zuerst erklärt, und dann wirst du Aufgaben lösen, um Punkte zu sammeln, jedes Level zu gewinnen und weiter voranzukommen!",
+            "scoringSystem": "Für jede <color=#639C4E>richtige</color> Antwort erhältst du <b><color=#639C4E>50</color></b> Punkte, und für jede <color=#639C4E>falsche</color> Antwort verlierst du <b><color=#639C4E>25</color></b> Punkte.",
+            "badges": "Dein Ziel ist es, so viele Punkte wie möglich zu sammeln, um das <color=#FECA47>GOLD-Abzeichen</color> für jedes Level freizuschalten. Sobald du das Gold-Abzeichen in allen Levels verdient hast, schaltest du das <color=#FECA47>MASTER-Abzeichen</color> frei - das nur wahren Experten und Expertinnen vorbehalten ist! Viel Glück!",
+            "chartIntro": "Dieses Spiel wird dir die Grundlagen der Visualisierungstechniken Liniendiagramm, Flächendiagramm und Stream-Graph erklären. Wir beginnen unsere Reise mit der einfachsten Art von Diagramm - dem <color=#639C4E>LINIENDIAGRAMM</color>. Hier unten siehst du gleich eines. Es ist eines der bekanntesten Diagramme - vielleicht kennst du es schon?",
+            "chartDefinition": "Ein Liniendiagramm eignet sich gut, um zu zeigen, wie sich ein <color=#639C4E>Wert im Laufe der Zeit</color> verändert. Ein Liniendiagramm besteht aus <color=#639C4E>verbundenen Datenpunkten</color> in einem Koordinatensystem.",
+            "axes": "Der grundlegendste Bestandteil jedes Diagramms sind die <b><color=#639C4E>ACHSEN</color></b>. Ein typisches Diagramm hat zwei Achsen: Eine <b>senkrechte</b> und eine waagrechte.",
+            "xAxis": "Die <b><color=#FF7669>X-ACHSE</color></b> ist die <b>horizontale</b> Linie unten. Meistens zeigt die X-Achse die <color=#639C4E>Zeit</color> an. Hier kannst du die <b>Tage im März</b> sehen.",
+            "yAxis": "Die <b><color=#5FBFB5>Y-ACHSE</color></b> ist die <b>vertikale</b> Linie links. Üblicherweise zeigt die Y-Achse den <color=#639C4E>Wert</color> an. Hier siehst du die <b>Temperatur in Grad Celsius</b>.",
+            "dataPoints": "Die <b><color=#639C4E>PUNKTE</color></b> in diesem Diagramm sind <color=#639C4E>Datenpunkte</color>. Jeder Punkt steht für eine <b>Kombination von Werten auf der Y- und der X-Achse</b>. Zum Beispiel sehen wir, dass es am 1.3. etwa 10°C hatte.",
+            "line": "Schließlich verbindet die <b><color=#FFD35C>LINIE</color></b> die Punkte und macht dieses Diagramm zu einem Liniendiagramm. So einfach ist das! Diese Linie kann uns nun verschiedene <b><color=#639C4E>TRENDS</color></b> im Laufe der Zeit zeigen. Ein Trend bedeutet, dass ein Wert sich für eine längere Zeit in eine bestimmte Richtung entwickelt hat, also gestiegen oder gesunken ist.",
+            "example": "Zum Beispiel können wir sehen, dass es zwischen dem 14. und dem 21. März allmählich kälter wurde.",
+            "peeksTroughs": "Punkte, an denen die Linie ihre Richtung von steigend zu fallend ändert, nennt man <b><color=#639C4E>SCHEITELPUNKT</color></b>. Täler sind Punkte, an denen die zuvor fallende Linie wieder ansteigt. Die <color=#639C4E>höchste</color> Spitze und das <color=#639C4E>tiefste</color> Tal nennt man <b><color=#639C4E>EXTREME</color></b>.",
+            "extremes": "Der Punkt mit dem höchsten Wert auf der Y-Achse ist das <color=#639C4E>MAXIMUM</color>. Der Punkt mit dem niedrigsten Wert ist das <color=#639C4E>MINIMUM</color>.",
+            "uses": "Liniendiagramme sind in einer Vielzahl von realen Szenarien nützlich. Zum Beispiel werden sie in der Finanzwelt verwendet, um Aktienkurse im Laufe der Zeit darzustellen, im Geschäftsbereich, um Einnahmen und Ausgaben zu verfolgen, oder in der Medizin, um Gesundheitsindikatoren wie die Herzfrequenz von Patienten zu überwachen."
+          },
+          "questions": {
+          },
+          "mistakeFeedbacks": {
+          },
+          "successFeedbacks": {
+          }
+        },
+        "axes": {
+          "informationChunks": {
+            "axesIntro1": "Schauen wir uns ein weiteres Beispiel an, das zeigt, wie sich die CO2-Emissionen pro Person in Europa im Laufe der Zeit verändert haben. CO2-Emissionen entstehen, wenn Kohlendioxid (CO2) in die Luft freigesetzt wird, zum Beispiel, wenn Benzin im Motor eines Autos verbrannt wird.",
+            "axesIntro": "Wir beginnen mit den Achsen. Unser Diagramm hat zwei Achsen, die horizontale <b><color=#FF7669>x-Achse</color></b> und die vertikale <b><color=#5FBFB5>y-Achse</color></b>. Die Werte auf der x-Achse sind <color=#639C4E>Datumsangaben (Jahre)</color> und die Werte auf der y-Achse sind <color=#639C4E>Tonnen CO2 pro Person</color>.",
+            "axesAssignment": "Kannst du mir helfen, diese Achsen im Diagramm zu beschriften? Ziehe die Beschriftungen aus dem rechten Panel in das Diagramm."
+          },
+          "questions": {
+          },
+          "mistakeFeedbacks": {
+            "xAxisMisidentified": "Dies scheint nicht der richtige Ort für das Label zu sein. Die Werte auf unserer x-Achse sollten Jahre darstellen. \n <b>- 25 Punkte</b>",
+            "yAxisMisidentified": "Dies scheint nicht der richtige Ort für das Label zu sein. Die Werte auf unserer y-Achse sollten die Tonnen CO2 darstellen. \n <b>- 25 Punkte</b>"
+          },
+          "successFeedbacks": {
+            "xAxisIdentified": "Ja, genau! Das ist die x-Achse, die die Jahre repräsentiert. \n <b>+ 50 Punkte!</b>",
+            "yAxisIdentified": "Genau! Das ist die y-Achse, die die Tonnen CO2 darstellt. \n <b>+ 50 Punkte!</b>"
+          }
+        },
+        
+        "interpretation": {
+          "informationChunks": {
+            "findMaxAssignment": "Jetzt konzentrieren wir uns auf die Informationen, die wir aus dem Diagramm ablesen können. Das Diagramm kann uns den höchsten Gesamtwert zeigen – das <b><color=#FF7669>Maximum</color></b>. In diesem Fall sind das die <b>aufgezeichneten Tonnen CO2 pro Person in Europa</b> im dargestellten Zeitraum. Tippe auf den Punkt des <color=#FF7669>Maximums</color> im Diagramm.",
+            "findMinAssignment": "Gut gemacht, du hast das Maximum gefunden! Das Diagramm kann uns auch das <b><color=#5FBFB5>Minimum</color></b> zeigen – die <b>niedrigste aufgezeichnete Menge an CO2</b>. Kannst du auch das <color=#5FBFB5>Minimum</color> finden?",
+            "findTrendUpAssignment": "Nun wollen wir Trends beobachten. Das sind Zeiträume, in denen es über mehrere Tage hinweg kälter oder wärmer wurde. Kannst du den Bereich mit einem <b><color=#D43535>steigenden CO2-Trend</color></b> hervorheben? Beginne beim ersten Punkt des Trends und ziehe durch alle Punkte des Trends, indem du eine Linie zwischen ihnen zeichnest.",
+            "findTrendDownAssignment": "Super, jetzt fehlt nur noch, dass du die Bereiche mit <b><color=#406A77>sinkenden CO2-Trends</color></b> markierst."
+            },
+          "questions": {
+          },
+          "mistakeFeedbacks": {
+            "maxMisidentified": "Das scheint nicht das Maximum zu sein. Das Maximum ist der Punkt mit dem höchsten Wert auf der Y-Achse. \n <b>- 25 Punkte</b>",
+            "minMisidentified": "Das scheint nicht das Minimum zu sein. Das Minimum ist der Punkt mit dem niedrigsten Wert auf der Y-Achse. \n <b>- 25 Punkte</b>",
+            "incompleteConnection": "Es scheint, als hättest du einige Punkte in deiner Verbindung ausgelassen. \n <b>- 25 Punkte</b>",
+            "unorderedConnection": "Es sieht so aus, als hättest du einige zusätzliche Punkte in deine Verbindung aufgenommen. \n <b>- 25 Punkte</b>",
+            "incorrectTendencyConnection": "Du hast einen Trend gefunden! Aber hat er die richtige Richtung? \n <b>- 25 Punkte</b>",
+            "tooShortTrendConnection": "Ein Trend muss ein anhaltendes Wachstum oder einen Rückgang über mehrere Tage umfassen. Deine Verbindung muss länger sein. \n <b>- 25 Punkte</b>"
+          },
+          "successFeedbacks": {
+            "maxIdentified": "Genau, du hast das Maximum gefunden! \n <b>+ 50 Punkte!</b>",
+            "minIdentified": "Richtig, das ist das Minimum!\n <b>+ 50 Punkte!</b>",
+            "trendUpIdentified": "Genau, das ist ein steigender Trend!\n <b>+ 50 Punkte!</b>",
+            "trendDownIdentified": "Korrekt! Das ist ein sinkender Trend!\n <b>+ 50 Punkte!</b>"
+          }
+        },
+
+        "multiLine": {
+          "informationChunks": {
+            "multilineintro1": "Ein Liniendiagramm kann auch <b><color=#639C4E>mehrere Linien</color></b> enthalten. Der Vorteil davon ist, dass du <color=#639C4E>mehrere Entwicklungen</color> vergleichen kannst.",
+            "multilineintro2": "Zum Beispiel können wir nicht nur die CO2-Emissionen von <color=#35A8B7>Europa</color> im Diagramm darstellen, sondern auch die anderer <color=#639C4E>Weltregionen</color>!",
+            "multilineintro22": "Das können wir tun, weil die Daten in jeder Kategorie den <color=#639C4E>gleichen Datentyp</color> auf der <color=#639C4E>x-Achse</color> (Datum) und der <color=#639C4E>y-Achse</color> (Menge der CO2-Emissionen pro Person in der Region) teilen.",
+            "multilineintro3": "Dazu werden alle einzelnen Punkte erneut im Koordinatensystem dargestellt. <color=#639C4E>Verschiedene Farben</color> werden verwendet, um die <color=#639C4E>Regionen besser zu unterscheiden</color>.",
+            "multilineintro4": "Dann werden alle Punkte derselben <color=#639C4E>Farbe</color> mit einer <color=#639C4E>Linie verbunden</color>. Drücke die Tasten der anderen Weltregionen im interaktiven Panel, um alle Linien zu visualisieren.",
+            "multilineintro5": "Super! Nun können die verschiedenen Weltregionen verglichen werden. Du kannst jetzt sehen, dass <color=#406A77>Australien</color>, <color=#CBEDB2>Nordamerika</color> und <color=#35A8B7>Europa</color> viel mehr CO2 pro Person ausstoßen als <color=#FFD35C>Asien</color>, <color=#FE9748>Südamerika</color> und <color=#D43535>Afrika!</color>",
+            "multilineintro6": "Zusätzlich kannst du die globalen Veränderungen der CO2-Emissionen auf einen Blick sehen. Diese werden auch als <b><color=#639C4E>GLOBALE TRENDS</color></b> bezeichnet."
+
+          },
+          "questions": {
+          },
+          "mistakeFeedbacks": {
+            
+          },
+          "successFeedbacks": {
+            
+          }
+        },
+
+        "evaluation": {
+          "informationChunks": {
+          },
+          "questions": {
+          },
+          "mistakeFeedbacks": {
+          },
+          "successFeedbacks": {
+          }
+        }
+      }
+    },
+    "areaChart": {
+      "activityTexts": {
+        "introduction": {
+          "informationChunks": {
+            "chartIntro": "Lass uns weitermachen und <b><color=#639C4E>FLÄCHENDIAGRAMME</color></b> anschauen. Sie sind wie Liniendiagramme, aber mit einer <color=#639C4E>gefüllten Fläche</color>, um Volumen oder Größe hervorzuheben, zusammen mit dem Trend der Linie.",
+            "keyComponents": "Die Grundlagen sind die gleichen —> <color=#639C4E>Achsen, Datenpunkte und die verbindende Linie</color>, genau wie in einem Liniendiagramm. Normalerweise zeigt die x-Achse <color=#639C4E>Zeit</color> und die y-Achse den <color=#639C4E>Wert</color> an.", 
+            "keyComponents2": "In Flächendiagrammen liegt der Fokus auf der <b><color=#639C4E>gefüllten Fläche</color></b>, daher sind die Datenpunkte möglicherweise nicht hervorgehoben.",
+            "areaReveal": "Fragst du dich, wo die <color=#639C4E>gefüllte Fläche</color> ist? Versuche, von <b>links nach rechts</b> auf dem Diagramm zu ziehen, um sie sichtbar zu machen!",
+            "areaExplanation": "Dieses Diagramm zeigt den <color=#639C4E>gesamten Regenfall</color> in einem Monat. Der Trend geht nur nach oben, da <color=#639C4E>die Gesamtsumme nicht abnehmen</color> kann. Überprüfe die genaue Menge im rechten Panel.",
+            "visibleInfo": "Flächendiagramme können den <color=#639C4E>Gesamtwert über die Zeit</color> anzeigen, nicht nur <color=#639C4E>Trends</color>. Steilere Abschnitte bedeuten mehr Regen, und flache Abschnitte zeigen wenig oder keinen Regen.",
+            "uses": "Flächendiagramme sind nützlich, um kumulierte Daten wie Regenfall, Verschmutzung, Verkäufe, Lagerbestände oder Website-Verkehr im Laufe der Zeit darzustellen."
+          },
+          "questions": {
+          },
+          "mistakeFeedbacks": {
+          },
+          "successFeedbacks": {
+          }
+        },
+        "comparison": {
+          "informationChunks": {
+            "activityIntro": "Lass uns sehen, wie Flächendiagramme verschiedene Daten vergleichen können. Unten siehst du zwei Diagramme, die den monatlichen Regenfall im Jahr 2023 zeigen.",
+            "activityIntro2": "Das linke Diagramm zeigt Innsbruck, Österreich, mit gemäßigtem Klima, und das rechte zeigt Tutunendo, Kolumbien, in einem tropischen Regenwald. Nimm dir einen Moment Zeit, um beide Diagramme zu betrachten.",
+            "linkedAxes": "Auf den ersten Blick sehen die Diagramme ähnlich aus, aber überprüfe die y-Achsen genau. Die Skalen sind unterschiedlich. Klicke auf den Button im rechten Panel, um die Skalen zu verbinden und den Unterschied zu sehen. Du kannst zwischen verbundenen und unverbundenen y-Achsen wechseln, um die Werte leichter zu vergleichen.",
+            "scalesInfo": "Die richtige Auswahl der Skala auf der y-Achse hilft, die Daten verständlich darzustellen. Wenn man für Innsbruck eine Höchstgrenze von 1500 verwendet, würden Trends verborgen und das Diagramm schwer lesbar.", 
+            "scalesInfo2": "Beim Vergleich von Diagrammen können unterschiedliche Skalen jedoch irreführend sein. Obwohl die Diagramme für Innsbruck und Tutunendo auf ihren eigenen Skalen ähnlich aussehen, wird der Unterschied deutlich, wenn die gleiche Skala verwendet wird.",
+            "questionsIntro": "Jetzt sehen wir, was wir aus diesen Diagrammen lernen können. Tippe auf die Optionen im rechten Panel, um die Fragen zu beantworten."
+          },
+          "questions": {
+            "question1": {
+              "question": "Welcher Ort hatte 2023 den höheren Gesamtniederschlag?",
+              "options": [
+                {
+                  "option": "Tutunengo",
+                  "correct": true,
+                  "feedback": "Ja, genau, Tutunengo hatte 2023 deutlich mehr Niederschlag.\n <b>+ 50 Punkte!</b>"
+                },
+                {
+                  "option": "Innsbruck",
+                  "correct": false,
+                  "feedback": "Bist du sicher? Du kannst den Verknüpfungs- und Trennungsbutton verwenden, um die Skalen besser zu vergleichen. \n <b>- 25 Punkte</b>"
+                }
+              ]
+            },
+            "question2": {
+              "question": "Welcher Monat hatte in der zweiten Hälfte des Jahres 2023 den geringsten Niederschlag in Innsbruck?",
+              "options": [
+                {
+                  "option": "Januar",
+                  "correct": false,
+                  "feedback": "Der Januar hatte zwar den insgesamt geringsten Niederschlag, aber er liegt in der ersten Jahreshälfte. \n <b>- 25 Punkte</b>"
+                },
+                {
+                  "option": "September",
+                  "correct": false,
+                  "feedback": "Der September hatte wenig Niederschlag, aber war es der geringste? \n <b>- 25 Punkte</b>"
+                },
+                {
+                  "option": "Februar",
+                  "correct": false,
+                  "feedback": "Der Februar hatte insgesamt wenig Niederschlag, aber er liegt in der ersten Jahreshälfte. \n <b>- 25 Punkte</b>"
+                },
+                {
+                  "option": "Oktober",
+                  "correct": true,
+                  "feedback": "Genau, der Oktober hatte den insgesamt geringsten Niederschlag. \n <b>+ 50 Punkte!</b>"
+                },
+                {
+                  "option": "November",
+                  "correct": false,
+                  "feedback": "Der November hatte relativ wenig Niederschlag, aber war es der geringste? \n <b>- 25 Punkte</b>"
+                }
+              ]
+            },
+            "question3": {
+              "question": "Was war der größte Gesamtunterschied im Niederschlag zwischen den Monaten, wenn man sowohl Innsbruck als auch Tutunendo betrachtet?",
+              "options": [
+                {
+                  "option": "900 mm",
+                  "correct": false,
+                  "feedback": "Das ist ein großer Unterschied, aber bist du sicher, dass es keinen größeren Wert gibt? \n <b>- 25 Punkte</b>"
+                },
+                {
+                  "option": "1200 mm",
+                  "correct": true,
+                  "feedback": "Ja, wie du sehen kannst, gab es einen enormen Unterschied zwischen Februar und August in Tutunengo. \n <b>+ 50 Punkte!</b>"
+                },
+                {
+                  "option": "240 mm",
+                  "correct": false,
+                  "feedback": "Das ist nicht viel, bist du sicher, dass es keinen größeren Unterschied gab? \n <b>- 25 Punkte</b>"
+                },
+                {
+                  "option": "300 mm",
+                  "correct": false,
+                  "feedback": "Das ist leider nicht richtig. Du kannst den Verknüpfungs- und Trennungsbutton verwenden, um die Skalen besser zu vergleichen. \n <b>- 25 Punkte</b>"
+                }
+              ]
+            },
+            "question4": {
+              "question": "In welchem Monat hatte Innsbruck mehr Niederschlag als Tutunengo?",
+              "options": [
+                {
+                  "option": "Mai",
+                  "correct": false,
+                  "feedback": "Das scheint nicht richtig zu sein. Du kannst den Verknüpfungs- und Trennungsbutton verwenden, um die Skalen besser zu vergleichen. \n <b>- 25 Punkte</b>"
+                },
+                {
+                  "option": "Dezember",
+                  "correct": false,
+                  "feedback": "Das scheint nicht richtig zu sein. Du kannst den Verknüpfungs- und Trennungsbutton verwenden, um die Skalen besser zu vergleichen. \n <b>- 25 Punkte</b>"
+                },
+                {
+                  "option": "Keiner",
+                  "correct": true,
+                  "feedback": "Genau, das war eine Fangfrage. Sobald du die Skalen anpasst, wird es leicht sichtbar. \n <b>+ 50 Punkte!</b>"
+                },
+                {
+                  "option": "Februar",
+                  "correct": false,
+                  "feedback": "Das scheint nicht richtig zu sein. Du kannst den Verknüpfungs- und Trennungsbutton verwenden, um die Skalen besser zu vergleichen. \n <b>- 25 Punkte</b>"
+                }
+              ]
+            }
+          },
+          "mistakeFeedbacks": {
+          },
+          "successFeedbacks": {
+          }
+        },
+        "evaluation": {
+          "informationChunks": {
+          },
+          "questions": {
+          },
+          "mistakeFeedbacks": {
+          },
+          "successFeedbacks": {
+          }
+        }
+      }
+    },
+    "stackedAreaChart": {
+      "activityTexts": {
+        "introduction": {
+          "informationChunks": {
+            "chartIntro": "Das Flächendiagramm im vorherigen Level war eine Erweiterung des einfachen Liniendiagramms. Jetzt werden wir uns das <b><color=#639C4E>GESTAPELTE FLÄCHENDIAGRAMM</color></b> ansehen. Wie du vielleicht schon vermutet hast, ist es eine Erweiterung des Liniendiagramms mit mehreren Linien = <color=#639C4E>mehrere Kategorien</color>.",
+            "reminder": "Zur Erinnerung: Wir können nur deshalb mehrere Kategorien in einem einzigen Diagramm darstellen, wenn die <color=#639C4E>Daten vom selben Typ</color> sind, - also auf der x-Achse immer Jahre, und auf der y-Achse immer CO2-Emissionen.",
+            "remind": "Wir verwenden eine <color=#639C4E>Legende</color>, um jeden Bereich zu beschriften, damit wir wissen, welcher Teil <color=#406A77>Gas</color>, <color=#FFD35C>Öl</color> oder <color=#D43535>Kohle</color> ist. Die Schaltflächen mit den Namen und Farben erledigen diese Aufgabe.",
+            "linesIntro": "Ein Liniendiagramm kann zeigen, wie viel CO2 im Jahr 1960 aus <color=#D43535>Kohle</color> kam. Aber was, wenn wir wissen wollen, wie viel CO2 insgesamt aus <color=#D43535>Kohle</color>, <color=#406A77>Gas</color> und <color=#FFD35C>Öl</color> im Jahr 1960 freigesetzt wurde?",
+            "linesIntro2": "Normalerweise müssten wir die Werte <color=#639C4E>zusammenzählen</color>. Das gestapelte Flächendiagramm erledigt das für uns! Drücke den Stapel-Button oben im rechten Panel, um es in Aktion zu sehen.",
+            "stackingMotivation": "In einem gestapelten Flächendiagramm werden alle Kategorien <color=#639C4E>'übereinandergestapelt'</color>. In diesem Beispiel wird jeder Punkt durch das <color=#639C4E>Zusammenzählen der Werte</color> von <color=#406A77>Gas</color>, <color=#FFD35C>Öl</color> und <color=#D43535>Kohle</color> pro Jahr erstellt. Siehst du, wie sich der Wert für das <color=#639C4E>Jahr 1960</color> zusammensetzt?",
+            "stackingExample": "Der Gesamtwert im <color=#639C4E>Jahr 1960</color> entspricht der Summe von <color=#406A77>Gas</color> plus <color=#FFD35C>Öl</color> plus <color=#D43535>Kohle</color> im Jahr 1960 - also <color=#406A77>4 (Gas)</color> plus <color=#FFD35C>9 (Öl)</color> plus <color=#D43535>17 (Kohle)</color>.  Wir können diese Werte aus einem Liniendiagramm oder einer Tabelle ablesen. Der Gesamtwert für das <color=#639C4E>Jahr 1960</color> ist also <color=#406A77>4</color> + <color=#FFD35C>9</color> + <color=#D43535>17</color> = <color=#639C4E>30</color>. So sehen wir, wie viel jede Kategorie zur Gesamtsumme beiträgt.",
+            "cumulatingIntro": "Was ist, wenn wir nur <color=#D43535>Kohle</color> und <color=#406A77>Gas</color> sehen wollen? Ganz einfach! Klicke einfach auf den '<color=#FFD35C>Öl</color>'-Button, um ihn aus dem Diagramm zu entfernen. Du kannst Kategorien ein- oder ausschalten, um das, was angezeigt wird, anzupassen.",
+            "cumulatingValuesUses": "Du kannst zwischen dem Liniendiagramm und dem gestapelten Flächendiagramm wechseln, indem du die 'Stapel'- und 'Entstapel'-Buttons verwendest. Benutze die Kategorien-Buttons, um verschiedene Teile des Diagramms auszublenden oder anzuzeigen.",
+            "cumulatedAreasControl": "Gestapelte Flächendiagramme <color=#639C4E>zeigen Trends und Gesamtwerte</color>, genau wie reguläre Flächendiagramme. Sie helfen uns, verschiedene Kategorien zu vergleichen und zu sehen, wie sie zur Gesamtsumme beitragen. Wir können das große Ganze sehen und wie jeder Teil dazu beiträgt."
+          },
+          "questions": {
+          },
+          "mistakeFeedbacks": {
+          },
+          "successFeedbacks": {
+          }
+        },
+        "interpretation": {
+          "informationChunks": {
+            "activityIntro": "Super! Jetzt, da du über gestapelte Flächendiagramme Bescheid weißt, ist es Zeit, dein Wissen zu testen. Bevor wir beginnen, sieh dir die Werkzeuge an, die du verwenden kannst. <color=#639C4E>Klicke auf eine beliebige Kategorie</color>, um sie hervorzuheben, und klicke erneut, um das gesamte Diagramm wieder anzuzeigen.",
+            "visualizerWindow": "Siehst du das Fenster im rechten Panel? Du kannst auf das Diagramm klicken oder mit der Maus darüberfahren, um den Wert der ausgewählten Kategorie in diesem Fenster zu sehen. Das <color=#639C4E>Fenster</color> zeigt den <color=#639C4E>individuellen Wert</color> der Kategorie an, ohne die darunter liegenden Kategorien einzuschließen. Du kannst den <color=#639C4E>Gesamtwert</color> von der <color=#639C4E>y-Achse</color> ablesen. Dies kombiniert die Vorteile von Liniendiagrammen und gestapelten Flächendiagrammen. Verwende dies, um die nächsten Fragen zu beantworten."
+          },
+          "questions": {
+            "question1": {
+              "question": "Welche Kategorie hatte 1955 den größten Beitrag?",
+              "options": [
+                {
+                  "option": "Gas",
+                  "correct": false,
+                  "feedback": "Es gab größere Beiträge in diesem Jahr. \n <b>- 25 Punkte</b>"
+                },
+                {
+                  "option": "Öl",
+                  "correct": false,
+                  "feedback": "Es gab größere Beiträge in diesem Jahr. \n <b>- 25 Punkte</b>"
+                },
+                {
+                  "option": "Kohle",
+                  "correct": true,
+                  "feedback": "Ja, genau. Kohle war 1955 der größte Beitrag. \n <b>+ 50 Punkte!</b>"
+                }
+              ]
+            },
+            "question2": {
+              "question": "Welche Kategorie wuchs in den 1960er Jahren am meisten?",
+              "options": [
+                {
+                  "option": "Gas",
+                  "correct": false,
+                  "feedback": "Du kannst versuchen, über die Kategorien zu ziehen, um die Werte in den 1960er Jahren zu überprüfen. \n <b>- 25 Punkte</b>"
+                },
+                {
+                  "option": "Öl",
+                  "correct": true,
+                  "feedback": "Ja, genau. Öl wuchs in den 1960er Jahren am meisten. \n <b>+ 50 Punkte!</b>"
+                },
+                {
+                  "option": "Kohle",
+                  "correct": false,
+                  "feedback": "Du kannst versuchen, über die Kategorien zu ziehen, um die Werte in den 1960er Jahren zu überprüfen. \n <b>- 25 Punkte</b>"
+                }
+              ]
+            },
+            "question3": {
+              "question": "Was war der Beitrag aller Kategorien zusammen im Jahr 1969?",
+              "options": [
+                {
+                  "option": "31 Millionen Tonnen",
+                  "correct": false,
+                  "feedback": "Das scheint zu wenig zu sein. Berücksichtigst du alle notwendigen Bereiche? \n <b>- 25 Punkte</b>"
+                },
+                {
+                  "option": "14,8 Millionen Tonnen",
+                  "correct": false,
+                  "feedback": "Das scheint zu wenig zu sein. Berücksichtigst du alle notwendigen Bereiche? \n <b>- 25 Punkte</b>"
+                },
+                {
+                  "option": "48 Millionen Tonnen",
+                  "correct": true,
+                  "feedback": "Genau, du kannst den Wert einfach direkt aus dem Diagramm ablesen. \n <b>+ 50 Punkte!</b>"
+                },
+                {
+                  "option": "65 Millionen Tonnen",
+                  "correct": false,
+                  "feedback": "Das ist viel, bist du sicher, dass du das richtige Jahr betrachtest? \n <b>- 25 Punkte</b>"
+                }
+              ]
+            },
+            "question4": {
+              "question": "Wann wurde Gas wirklich genutzt?",
+              "options": [
+                {
+                  "option": "1960",
+                  "correct": true,
+                  "feedback": "Das ist genau richtig. Vor diesem Jahr war die Nutzung von Gas nahezu null. \n <b>+ 50 Punkte!</b>"
+                },
+                {
+                  "option": "1950",
+                  "correct": false,
+                  "feedback": "Du schaust möglicherweise auf die falschen Kategorien. \n <b>- 25 Punkte</b>"
+                },
+                {
+                  "option": "1970",
+                  "correct": false,
+                  "feedback": "Du schaust möglicherweise auf die falschen Kategorien. \n <b>- 25 Punkte</b>"
+                },
+                {
+                  "option": "2000",
+                  "correct": false,
+                  "feedback": "Das scheint nicht richtig zu sein. Du kannst den Inspektor verwenden, um das genaue Jahr und die Werte zu finden. \n <b>- 25 Punkte</b>"
+                }
+              ]
+            },
+            "question5": {
+              "question": "In welchem Jahr erreichten die Gesamtemissionen ihren höchsten Scheitelpunkt?",
+              "options": [
+                {
+                  "option": "2015",
+                  "correct": false,
+                  "feedback": "Nein. Es gibt einen höheren Scheitelpunkt."
+                },
+                {
+                  "option": "1980",
+                  "correct": false,
+                  "feedback": "Nein. Dieses Jahr war definitiv kein Scheitelpunktjahr. \n <b>- 25 Punkte</b>"
+                },
+                {
+                  "option": "2004",
+                  "correct": true,
+                  "feedback": "Ja, genau! In diesem Jahr erreichten die Emissionen ihren Höchststand. Seitdem versuchen wir ständig, sie zu minimieren. \n <b>+ 50 Punkte!</b>"
+                },
+                {
+                  "option": "1992",
+                  "correct": false,
+                  "feedback": "Das scheint nicht richtig zu sein. Es gibt einen Scheitelpunkt, aber nicht den höchsten. \n <b>- 25 Punkte</b>"
+                }
+              ]
+            }
+          }
+        },
+        "evaluation": {
+          "informationChunks": {
+          },
+          "questions": {
+          },
+          "mistakeFeedbacks": {
+          },
+          "successFeedbacks": {
+          }
+        }
+      }
+    },
+    "streamGraph": {
+      "activityTexts": {
+        "introductionBasic": {
+          "informationChunks": {
+            "chartIntro": "Zum Schluss werfen wir einen Blick auf den <b><color=#639C4E>STREAM-GRAPH</color></b>. Stream-Graphs bauen auf dem Konzept von gestapelten Flächendiagrammen auf.",
+            "dataIntro": "Unten siehst du ein gestapeltes Flächendiagramm, das die <b><color=#639C4E>CO2-Emissionen pro Person</color></b> aus verschiedenen Weltregionen zwischen 1950 und 2022 zeigt — ähnlich wie wir es im Liniendiagramm-Level gesehen haben.",
+            "dataIntro2": "Um dieses gestapelte Flächendiagramm in einen Stream-Graph zu verwandeln, klicke auf den <b>Zentrierungs-Button</b>.",
+            "nameExplanation": "Beachte, wie das Diagramm um die Mitte herum wie ein Fluss fließt. Die Kategorien sehen aus wie <b><color=#639C4E>Wellen</color></b> in einem Fluss, der sich durch die Zeit bewegt. Deshalb nennen wir das Diagramm <color=#639C4E>Stream-Graphen</color> - wie 'Stream', was auf Englisch <color=#639C4E>'Fluss'</color> heißt.",
+            "streamIntro": "Dieses Diagramm zeigt erneut die gleichen Weltregionen und deren CO2-Emissionen pro Person von 1950 bis 2022. In einem Stream-Graphen ist jedoch die <color=#639C4E>Y-Achse nicht so wichtig</color>! Die Werte werden <color=#639C4E>SYMMETRISCH GESTAPELT</color>, um einen glatteren, ausgeglichenen visuellen Effekt zu erzeugen.",
+            "streamIntro2": "Stream Graphs sind nützlich, wenn wir uns mehr für <color=#639C4E>PROPORTIONEN</color> im Laufe der Zeit interessieren als für die genauen Gesamtwerte.",
+            "usesAbstract": "Stream Graphs sind besonders geeignet, um <b><color=#639C4E>Proportionen</color></b> und <b><color=#639C4E>Trends</color></b> im Laufe der Zeit zu zeigen. Sie helfen uns zu erkennen, welche Kategorien wachsen oder schrumpfen. Sie <color=#639C4E>zeigen jedoch keine genauen Werte</color>, daher eignet sich für Gesamtwerte ein <b>gestapeltes Flächendiagramm</b> besser.",
+            "usesPractice": "Stream Graphs werden häufig in Bereichen wie <b>Wirtschaft</b>, <b>Unterhaltung</b>, <b>Sport</b> und <b>Klimawissenschaft</b> eingesetzt, wo die Beobachtung von Veränderungen im Laufe der Zeit entscheidend ist. Obwohl sie aufgrund ihrer <b><color=#639C4E>symmetrischen Platzierung</color></b> visuell ausgewogen aussehen, wird diese Anordnung automatisch von einem <color=#639C4E>Computer-Algorithmus</color> vorgenommen."
+            
+          },
+          "questions": {
+          },
+          "mistakeFeedbacks": {
+          },
+          "successFeedbacks": {
+          }
+        },
+        
+        "interpretation": {
+          "informationChunks": {
+            "chartIntro": "Jetzt kannst du die einzelnen Regionen und ihre genauen Beiträge zu den CO2-Emissionen pro Person erkunden. Klicke auf eine Kategorie, um sie hervorzuheben. Klicke erneut, um die Hervorhebung zu entfernen. Bewege die Maus über die Kategorien, um Veränderungen der Werte im Laufe der Zeit im Panel oben rechts über der Legende zu beobachten.",
+            "questionsIntro": "Wenn du das Diagramm fertig erkundet hast, testen wir dein Verständnis, indem du die folgenden Fragen beantwortest."
+          },
+          "questions": {
+            "question1": {
+              "question": "Welche Region hat den größten Anstieg der CO2-Emissionen pro Person?",
+              "options": [
+                {
+                  "option": "Europa",
+                  "correct": false,
+                  "feedback": "Nein, Europa hatte am Anfang einen Anstieg, aber war es der größte? \n <b>- 25 Punkte</b>"
+                },
+                {
+                  "option": "Nordamerika",
+                  "correct": false,
+                  "feedback": "Nordamerika hat definitiv einen großen Emissionsbetrag pro Person, aber hat es den größten Anstieg? \n <b>- 25 Punkte</b>"
+                },
+                {
+                  "option": "Südamerika",
+                  "correct": false,
+                  "feedback": "Nein, Südamerika hat keine hohen Emissionen pro Person im Laufe der Jahre.. \n <b>- 25 points</b>"
+                },
+                {
+                  "option": "Asien",
+                  "correct": false,
+                  "feedback": "Nein, Asien hat im Laufe der Jahre nicht so hohe Emissionen pro Person. \n <b>- 25 Punkte</b>"
+                },
+                {
+                  "option": "Australien",
+                  "correct": true,
+                  "feedback": "Ja, Australien hat den größten Anstieg insgesamt. \n <b>+ 50 Punkte!</b>"
+                }
+                
+              ]
+            },
+            "question2": {
+              "question": "Welche Region trug in den 1950er Jahren am meisten zu den CO2-Emissionen bei?",
+              "options": [
+                {
+                  "option": "Europa",
+                  "correct": false,
+                  "feedback": "Nein, Europa hatte in den 1950er Jahren nicht den größten Beitrag. \n <b>- 25 Punkte</b>"
+                },
+                {
+                  "option": "Nordamerika",
+                  "correct": true,
+                  "feedback": "Ja! Nordamerika hatte in den 1950er Jahren den größten Beitrag. \n <b>+ 50 Punkte!</b>"
+                },
+                {
+                  "option": "Südamerika",
+                  "correct": false,
+                  "feedback": "Nein, Südamerika hatte definitiv nicht den größten Beitrag in den 1950er Jahren. \n <b>- 25 Punkte</b>>"
+                },
+                {
+                  "option": "Asien",
+                  "correct": false,
+                  "feedback": "Nein, Asien hatte definitiv nicht den größten Beitrag in den 1950er Jahren. \n <b>- 25 Punkte</b>"
+                },
+                {
+                  "option": "Australien",
+                  "correct": false,
+                  "feedback": "Nein. Obwohl Australien in den 1950er Jahren einen großen Beitrag leistete, war es nicht der größte. \n <b>- 25 Punkte</b>"
+                }
+              ]
+            },
+            "question3": {
+              "question": "Hat Europas Beitrag zu den CO2-Emissionen pro Person von 1950 bis 2022 zugenommen, abgenommen oder ist er gleich geblieben?",
+              "options": [
+                {
+                  "option": "zugenommen",
+                  "correct": false,
+                  "feedback": "Nein. Schaust du auf die richtige Kategorie? \n <b>- 25 Punkte</b>"
+                },
+                {
+                  "option": "abgenommen",
+                  "correct": false,
+                  "feedback": "Nein. Schaust du auf die richtige Kategorie? \n <b>- 25 Punkte</b>"
+                },
+                {
+                  "option": "gleich geblieben",
+                  "correct": false,
+                  "feedback": "Nein. Betrachte die Visualisierung noch einmal genauer. \n <b>- 25 Punkte</b>"
+                },
+                {
+                  "option": "zuerst zugenommen, dann abgenommen",
+                  "correct": true,
+                  "feedback": "Ja! Zuerst leicht angestiegen bis etwa 1970, gefolgt von einem allmählichen Rückgang ab diesem Zeitpunkt. \n <b>+ 50 Punkte!</b>"
+                },
+                {
+                  "option": "zuerst zugenommen, dann abgenommen",
+                  "correct": false,
+                  "feedback": "Nein. Schau dir die Visualisierung noch einmal an. \n <b>- 25 Punkte</b>"
+                }
+              ]
+            },
+            "question4": {
+              "question": "Wenn du die globalen CO2-Emissionen reduzieren wolltest, auf welche zwei Regionen würdest du dich basierend auf ihren Beiträgen pro Person konzentrieren?",
+              "options": [
+                {
+                  "option": "Europa, Nordamerika",
+                  "correct": false,
+                  "feedback": "Nein. Versuche, die Regionen zu finden, die die größten Emissionen pro Person haben. \n <b>- 25 Punkte</b>"
+                },
+                {
+                  "option": "Europa, Australien",
+                  "correct": false,
+                  "feedback": "Du hast es fast richtig, aber Europa hat die dritthöchsten Emissionen pro Person. \n <b>- 25 Punkte</b>"
+                },
+                {
+                  "option": "Asien, Nordamerika",
+                  "correct": false,
+                  "feedback": "Nein. Trotz Asiens wachsender Bevölkerung sind die CO2-Emissionen pro Person gering. \n <b>- 25 Punkte</b>"
+                },
+                {
+                  "option": "Asien, Australien",
+                  "correct": false,
+                  "feedback": "Nein. Trotz Asiens wachsender Bevölkerung sind die CO2-Emissionen pro Person gering. \n <b>- 25 Punkte</b>"
+                },
+                {
+                  "option": "Australien, Nordamerika",
+                  "correct": true,
+                  "feedback": "Ja. Trotz Asiens wachsender Bevölkerung sind die CO2-Emissionen pro Person gering. Daher wäre die Reduzierung der Emissionen in Nordamerika und Australien am wirkungsvollsten, um die globalen CO2-Emissionen pro Person zu senken. \n <b>+ 50 Punkte!</b>"
+                }
+              ]
+            },
+            "question5": {
+              "question": "Was sagt dir das Diagramm über die Gesamtveränderung der globalen CO2-Emissionen pro Person in allen Regionen? Sagt das Diagramm, welche Region insgesamt mehr Emissionen produziert?",
+              "options": [
+                {
+                  "option": "Ja",
+                  "correct": false,
+                  "feedback": "Nein. Das Diagramm zeigt nur die CO2-Emissionen pro Person, nicht die Gesamtemissionen für jede Region. Es zeigt, wie viel CO2 eine durchschnittliche Person in jeder Region produziert. Obwohl zum Beispiel Asien niedrige Emissionen pro Person hat, hat es eine große Bevölkerung, daher sind seine Gesamtemissionen sehr hoch. \n <b>- 25 Punkte</b>"
+                },
+                {
+                  "option": "Nein",
+                  "correct": true,
+                  "feedback": "Genau! Das Diagramm zeigt nur die CO2-Emissionen pro Person, nicht die Gesamtemissionen für jede Region. Es zeigt, wie viel CO2 eine durchschnittliche Person in jeder Region produziert. Obwohl Asien zum Beispiel niedrige Emissionen pro Person hat, hat es eine große Bevölkerung, daher sind seine Gesamtemissionen sehr hoch. \n <b>+ 50 Punkte!</b>"
+                }
+                
+              ]
+            }
+          },
+          "mistakeFeedbacks": {
+          },
+          "successFeedbacks": {
+          }
+        },
+        "evaluation": {
+          "informationChunks": {
+          },
+          "questions": {
+          },
+          "mistakeFeedbacks": {
+          },
+          "successFeedbacks": {
+          }
+        }
+      }
+    }
+  }
+}
