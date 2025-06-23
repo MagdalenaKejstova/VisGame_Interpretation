@@ -54,7 +54,7 @@ public class StreamGraphIntroductionActivityManager : IntroductionActivityManage
         toggleCenteringButton.transform.parent.gameObject.SetActive(true);
     }
 
-    protected void SetUpGraph()
+    protected void SetUpGraph()//LineChart/CO2EmmissionsEurope
     {
         var graphObject = graphDataFiller.GraphObject.gameObject;
         graphObject.transform.parent.gameObject.SetActive(true);

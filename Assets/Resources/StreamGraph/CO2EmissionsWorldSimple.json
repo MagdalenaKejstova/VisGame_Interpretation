@@ -293,7 +293,7 @@
           "Emissions": 0.99
        }
     ],
-    "Asien": [
+    "Asia": [
        {
           "Date": "1950-01-01",
           "Emissions": 0.29
@@ -587,7 +587,7 @@
           "Emissions": 4.61
        }
     ],
-    "Australien": [
+    "Australia": [
        {
           "Date": "1950-01-01",
           "Emissions": 6.82
@@ -881,7 +881,7 @@
           "Emissions": 14.99
        }
     ],
-    "Europa": [
+    "Europe": [
        {
           "Date": "1950-01-01",
           "Emissions": 4.33
@@ -1175,7 +1175,7 @@
           "Emissions": 6.86
        }
     ],
-    "NordAmerika": [
+    "North America": [
        {
           "Date": "1950-01-01",
           "Emissions": 12.81
@@ -1469,7 +1469,7 @@
           "Emissions": 10.53
        }
     ],
-    "Südamerika": [
+    "South America": [
        {
           "Date": "1950-01-01",
           "Emissions": 0.99

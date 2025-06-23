@@ -54,12 +54,12 @@ public class LineDrawingActivityManager : LineActivityManagerBase
         // Ensure Graph and DataSource are filled before fetching data points
         graphDataFiller.Fill();
 
-        regionDataPoints["Afrika"] = GetDataPointsForRegion("Afrika");
-        regionDataPoints["Asien"] = GetDataPointsForRegion("Asien");
-        regionDataPoints["Europa"] = GetDataPointsForRegion("Europa");
-        regionDataPoints["Nord Amerika"] = GetDataPointsForRegion("Nord Amerika");
-        regionDataPoints["Südamerika"] = GetDataPointsForRegion("Südamerika");
-        regionDataPoints["Australien"] = GetDataPointsForRegion("Australien");
+        regionDataPoints["Africa"] = GetDataPointsForRegion("Africa");
+        regionDataPoints["Asia"] = GetDataPointsForRegion("Asia");
+        regionDataPoints["Europe"] = GetDataPointsForRegion("Europe");
+        regionDataPoints["North America"] = GetDataPointsForRegion("North America");
+        regionDataPoints["South America"] = GetDataPointsForRegion("South America");
+        regionDataPoints["Australia"] = GetDataPointsForRegion("Australia");
 
         // Debug to ensure regionDataPoints are populated
         foreach (var region in regionDataPoints.Keys)

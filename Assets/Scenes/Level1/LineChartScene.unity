@@ -13,7 +13,7 @@ OcclusionCullingSettings:
 --- !u!104 &2
 RenderSettings:
   m_ObjectHideFlags: 0
-  serializedVersion: 9
+  serializedVersion: 10
   m_Fog: 0
   m_FogColor: {r: 0.5, g: 0.5, b: 0.5, a: 1}
   m_FogMode: 3
@@ -38,13 +38,12 @@ RenderSettings:
   m_ReflectionIntensity: 1
   m_CustomReflection: {fileID: 0}
   m_Sun: {fileID: 0}
-  m_IndirectSpecularColor: {r: 0.44403303, g: 0.48837245, b: 0.5459119, a: 1}
   m_UseRadianceAmbientProbe: 0
 --- !u!157 &3
 LightmapSettings:
   m_ObjectHideFlags: 0
-  serializedVersion: 12
-  m_GIWorkflowMode: 1
+  serializedVersion: 13
+  m_BakeOnSceneLoad: 0
   m_GISettings:
     serializedVersion: 2
     m_BounceScale: 1
@@ -67,9 +66,6 @@ LightmapSettings:
     m_LightmapParameters: {fileID: 0}
     m_LightmapsBakeMode: 1
     m_TextureCompression: 1
-    m_FinalGather: 0
-    m_FinalGatherFiltering: 1
-    m_FinalGatherRayCount: 256
     m_ReflectionCompression: 2
     m_MixedBakeMode: 2
     m_BakeBackend: 1
@@ -538,15 +534,17 @@ MonoBehaviour:
   m_lineSpacingMax: 0
   m_paragraphSpacing: 0
   m_charWidthMaxAdj: 0
-  m_enableWordWrapping: 1
+  m_TextWrappingMode: 1
   m_wordWrappingRatios: 0.4
   m_overflowMode: 0
   m_linkedTextComponent: {fileID: 0}
   parentLinkedComponent: {fileID: 0}
   m_enableKerning: 1
+  m_ActiveFontFeatures: 00000000
   m_enableExtraPadding: 0
   checkPaddingRequired: 0
   m_isRichText: 1
+  m_EmojiFallbackSupport: 1
   m_parseCtrlCharacters: 1
   m_isOrthographic: 1
   m_isCullingEnabled: 0
@@ -901,15 +899,17 @@ MonoBehaviour:
   m_lineSpacingMax: 0
   m_paragraphSpacing: 0
   m_charWidthMaxAdj: 0
-  m_enableWordWrapping: 1
+  m_TextWrappingMode: 1
   m_wordWrappingRatios: 0.4
   m_overflowMode: 0
   m_linkedTextComponent: {fileID: 0}
   parentLinkedComponent: {fileID: 0}
   m_enableKerning: 1
+  m_ActiveFontFeatures: 00000000
   m_enableExtraPadding: 0
   checkPaddingRequired: 0
   m_isRichText: 1
+  m_EmojiFallbackSupport: 1
   m_parseCtrlCharacters: 1
   m_isOrthographic: 1
   m_isCullingEnabled: 0
@@ -1185,15 +1185,17 @@ MonoBehaviour:
   m_lineSpacingMax: 0
   m_paragraphSpacing: 0
   m_charWidthMaxAdj: 0
-  m_enableWordWrapping: 1
+  m_TextWrappingMode: 1
   m_wordWrappingRatios: 0.4
   m_overflowMode: 0
   m_linkedTextComponent: {fileID: 0}
   parentLinkedComponent: {fileID: 0}
   m_enableKerning: 1
+  m_ActiveFontFeatures: 00000000
   m_enableExtraPadding: 0
   checkPaddingRequired: 0
   m_isRichText: 1
+  m_EmojiFallbackSupport: 1
   m_parseCtrlCharacters: 1
   m_isOrthographic: 1
   m_isCullingEnabled: 0
@@ -2848,15 +2850,17 @@ MonoBehaviour:
   m_lineSpacingMax: 0
   m_paragraphSpacing: 0
   m_charWidthMaxAdj: 0
-  m_enableWordWrapping: 1
+  m_TextWrappingMode: 1
   m_wordWrappingRatios: 0.4
   m_overflowMode: 0
   m_linkedTextComponent: {fileID: 0}
   parentLinkedComponent: {fileID: 0}
   m_enableKerning: 1
+  m_ActiveFontFeatures: 00000000
   m_enableExtraPadding: 0
   checkPaddingRequired: 0
   m_isRichText: 1
+  m_EmojiFallbackSupport: 1
   m_parseCtrlCharacters: 1
   m_isOrthographic: 1
   m_isCullingEnabled: 0
@@ -3772,6 +3776,7 @@ AudioSource:
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 0}
+  m_Resource: {fileID: 0}
   m_PlayOnAwake: 0
   m_Volume: 1
   m_Pitch: 1
@@ -3973,15 +3978,17 @@ MonoBehaviour:
   m_lineSpacingMax: 0
   m_paragraphSpacing: 0
   m_charWidthMaxAdj: 0
-  m_enableWordWrapping: 1
+  m_TextWrappingMode: 1
   m_wordWrappingRatios: 0.4
   m_overflowMode: 0
   m_linkedTextComponent: {fileID: 0}
   parentLinkedComponent: {fileID: 0}
   m_enableKerning: 1
+  m_ActiveFontFeatures: 00000000
   m_enableExtraPadding: 0
   checkPaddingRequired: 0
   m_isRichText: 1
+  m_EmojiFallbackSupport: 1
   m_parseCtrlCharacters: 1
   m_isOrthographic: 1
   m_isCullingEnabled: 0
@@ -4630,7 +4637,7 @@ MonoBehaviour:
     total: 3
     drawDivisionLines: 1
     drawDivisionLabels: 1
-    material: {fileID: 2100000, guid: bdb13d53e3b6bb549950dfa33b36f965, type: 2}
+    material: {fileID: 2100000, guid: b96c9a021464d4c71a397aeb1b7e56d9, type: 2}
     materialTiling:
       EnableTiling: 1
       TileFactor: 11.52
@@ -4659,7 +4666,7 @@ MonoBehaviour:
     total: 3
     drawDivisionLines: 1
     drawDivisionLabels: 1
-    material: {fileID: 2100000, guid: bdb13d53e3b6bb549950dfa33b36f965, type: 2}
+    material: {fileID: 2100000, guid: 1f6790359ddee4fc3af99e2975ab83f6, type: 2}
     materialTiling:
       EnableTiling: 1
       TileFactor: 11.52
@@ -4706,7 +4713,7 @@ MonoBehaviour:
     total: 2
     drawDivisionLines: 1
     drawDivisionLabels: 1
-    material: {fileID: 2100000, guid: bdb13d53e3b6bb549950dfa33b36f965, type: 2}
+    material: {fileID: 2100000, guid: b96c9a021464d4c71a397aeb1b7e56d9, type: 2}
     materialTiling:
       EnableTiling: 1
       TileFactor: 10
@@ -4735,7 +4742,7 @@ MonoBehaviour:
     total: 2
     drawDivisionLines: 1
     drawDivisionLabels: 1
-    material: {fileID: 2100000, guid: bdb13d53e3b6bb549950dfa33b36f965, type: 2}
+    material: {fileID: 2100000, guid: 965afe182bf141344877ad1ae1fd954e, type: 2}
     materialTiling:
       EnableTiling: 1
       TileFactor: 10
@@ -5121,15 +5128,17 @@ MonoBehaviour:
   m_lineSpacingMax: 0
   m_paragraphSpacing: 0
   m_charWidthMaxAdj: 0
-  m_enableWordWrapping: 1
+  m_TextWrappingMode: 1
   m_wordWrappingRatios: 0.4
   m_overflowMode: 0
   m_linkedTextComponent: {fileID: 0}
   parentLinkedComponent: {fileID: 0}
   m_enableKerning: 1
+  m_ActiveFontFeatures: 6e72656b
   m_enableExtraPadding: 0
   checkPaddingRequired: 0
   m_isRichText: 1
+  m_EmojiFallbackSupport: 1
   m_parseCtrlCharacters: 1
   m_isOrthographic: 1
   m_isCullingEnabled: 0
@@ -5255,15 +5264,17 @@ MonoBehaviour:
   m_lineSpacingMax: 0
   m_paragraphSpacing: 0
   m_charWidthMaxAdj: 0
-  m_enableWordWrapping: 1
+  m_TextWrappingMode: 1
   m_wordWrappingRatios: 0.4
   m_overflowMode: 0
   m_linkedTextComponent: {fileID: 0}
   parentLinkedComponent: {fileID: 0}
   m_enableKerning: 1
+  m_ActiveFontFeatures: 00000000
   m_enableExtraPadding: 0
   checkPaddingRequired: 0
   m_isRichText: 1
+  m_EmojiFallbackSupport: 1
   m_parseCtrlCharacters: 1
   m_isOrthographic: 1
   m_isCullingEnabled: 0
@@ -5454,7 +5465,7 @@ PrefabInstance:
     - target: {fileID: -9058302743393066433, guid: 22514da279291ad4fab93b7332038fda, type: 3}
       propertyPath: subDivisions.material
       value: 
-      objectReference: {fileID: 2100000, guid: bdb13d53e3b6bb549950dfa33b36f965, type: 2}
+      objectReference: {fileID: 2100000, guid: 965afe182bf141344877ad1ae1fd954e, type: 2}
     - target: {fileID: -9058302743393066433, guid: 22514da279291ad4fab93b7332038fda, type: 3}
       propertyPath: mainDivisions.fontSize
       value: 45
@@ -5462,7 +5473,7 @@ PrefabInstance:
     - target: {fileID: -9058302743393066433, guid: 22514da279291ad4fab93b7332038fda, type: 3}
       propertyPath: mainDivisions.material
       value: 
-      objectReference: {fileID: 2100000, guid: bdb13d53e3b6bb549950dfa33b36f965, type: 2}
+      objectReference: {fileID: 2100000, guid: b96c9a021464d4c71a397aeb1b7e56d9, type: 2}
     - target: {fileID: -9058302743393066433, guid: 22514da279291ad4fab93b7332038fda, type: 3}
       propertyPath: subDivisions.alignment
       value: 2
@@ -5530,7 +5541,7 @@ PrefabInstance:
     - target: {fileID: -2625831384701809420, guid: 22514da279291ad4fab93b7332038fda, type: 3}
       propertyPath: mainDivisions.material
       value: 
-      objectReference: {fileID: 2100000, guid: bdb13d53e3b6bb549950dfa33b36f965, type: 2}
+      objectReference: {fileID: 2100000, guid: b96c9a021464d4c71a397aeb1b7e56d9, type: 2}
     - target: {fileID: -2625831384701809420, guid: 22514da279291ad4fab93b7332038fda, type: 3}
       propertyPath: subDivisions.alignment
       value: 1
@@ -5810,15 +5821,17 @@ MonoBehaviour:
   m_lineSpacingMax: 0
   m_paragraphSpacing: 0
   m_charWidthMaxAdj: 0
-  m_enableWordWrapping: 1
+  m_TextWrappingMode: 1
   m_wordWrappingRatios: 0.4
   m_overflowMode: 0
   m_linkedTextComponent: {fileID: 0}
   parentLinkedComponent: {fileID: 0}
   m_enableKerning: 1
+  m_ActiveFontFeatures: 00000000
   m_enableExtraPadding: 0
   checkPaddingRequired: 0
   m_isRichText: 1
+  m_EmojiFallbackSupport: 1
   m_parseCtrlCharacters: 1
   m_isOrthographic: 1
   m_isCullingEnabled: 0
@@ -6094,6 +6107,9 @@ LineRenderer:
   m_ReflectionProbeUsage: 0
   m_RayTracingMode: 0
   m_RayTraceProcedural: 0
+  m_RayTracingAccelStructBuildFlagsOverride: 0
+  m_RayTracingAccelStructBuildFlags: 1
+  m_SmallMeshCulling: 1
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -6236,7 +6252,7 @@ MonoBehaviour:
   yellow: {fileID: 2100000, guid: a652becd144a8cc4f8502f753e3d6004, type: 2}
   green: {fileID: 2100000, guid: 6ef490202f5fe9b4dab13a710c03fb9f, type: 2}
   defaultMaterial: {fileID: 2100000, guid: d435a355f765c5e4e98167a2771c75d4, type: 2}
-  gameTextDataResourcePath: game_texts
+  gameTextDataResourcePath: game_texts-en
 --- !u!4 &988381814
 Transform:
   m_ObjectHideFlags: 0
@@ -6883,9 +6899,8 @@ Light:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 1126110813}
   m_Enabled: 1
-  serializedVersion: 10
+  serializedVersion: 11
   m_Type: 1
-  m_Shape: 0
   m_Color: {r: 1, g: 0.95686275, b: 0.8392157, a: 1}
   m_Intensity: 0.9
   m_Range: 10
@@ -6935,8 +6950,12 @@ Light:
   m_BoundingSphereOverride: {x: 0, y: 0, z: 0, w: 0}
   m_UseBoundingSphereOverride: 0
   m_UseViewFrustumForShadowCasterCull: 1
+  m_ForceVisible: 0
   m_ShadowRadius: 0
   m_ShadowAngle: 0
+  m_LightUnit: 1
+  m_LuxAtDistance: 1
+  m_EnableSpotReflector: 1
 --- !u!4 &1126110815
 Transform:
   m_ObjectHideFlags: 0
@@ -6969,6 +6988,14 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: -9058302743393066433, guid: bfa5d40e1dfda8249a3fde6059f0ca41, type: 3}
+      propertyPath: subDivisions.material
+      value: 
+      objectReference: {fileID: 2100000, guid: 965afe182bf141344877ad1ae1fd954e, type: 2}
+    - target: {fileID: -9058302743393066433, guid: bfa5d40e1dfda8249a3fde6059f0ca41, type: 3}
+      propertyPath: mainDivisions.material
+      value: 
+      objectReference: {fileID: 2100000, guid: 70a4e1ec06eb34ae69f610beec7b83aa, type: 2}
+    - target: {fileID: -9058302743393066433, guid: bfa5d40e1dfda8249a3fde6059f0ca41, type: 3}
       propertyPath: mainDivisions.unitsPerDivision
       value: 0
       objectReference: {fileID: 0}
@@ -6988,6 +7015,10 @@ PrefabInstance:
       propertyPath: subDivisions.material
       value: 
       objectReference: {fileID: 2100000, guid: 965afe182bf141344877ad1ae1fd954e, type: 2}
+    - target: {fileID: -2625831384701809420, guid: bfa5d40e1dfda8249a3fde6059f0ca41, type: 3}
+      propertyPath: mainDivisions.material
+      value: 
+      objectReference: {fileID: 2100000, guid: 70a4e1ec06eb34ae69f610beec7b83aa, type: 2}
     - target: {fileID: -2625831384701809420, guid: bfa5d40e1dfda8249a3fde6059f0ca41, type: 3}
       propertyPath: mainDivisions.unitsPerDivision
       value: 5
@@ -7205,15 +7236,17 @@ MonoBehaviour:
   m_lineSpacingMax: 0
   m_paragraphSpacing: 0
   m_charWidthMaxAdj: 0
-  m_enableWordWrapping: 1
+  m_TextWrappingMode: 1
   m_wordWrappingRatios: 0.4
   m_overflowMode: 0
   m_linkedTextComponent: {fileID: 0}
   parentLinkedComponent: {fileID: 0}
   m_enableKerning: 1
+  m_ActiveFontFeatures: 00000000
   m_enableExtraPadding: 0
   checkPaddingRequired: 0
   m_isRichText: 1
+  m_EmojiFallbackSupport: 1
   m_parseCtrlCharacters: 1
   m_isOrthographic: 1
   m_isCullingEnabled: 0
@@ -7633,7 +7666,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Wert  (Toonen CO2)
+  m_text: Value  (Ton of CO2)
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 2af0b54e7546b4a319645533acee5613, type: 2}
   m_sharedMaterial: {fileID: -7809376638605674287, guid: 6b3f431c427960a4e9900bdb55699647, type: 2}
@@ -7676,15 +7709,17 @@ MonoBehaviour:
   m_lineSpacingMax: 0
   m_paragraphSpacing: 0
   m_charWidthMaxAdj: 0
-  m_enableWordWrapping: 1
+  m_TextWrappingMode: 1
   m_wordWrappingRatios: 0.4
   m_overflowMode: 0
   m_linkedTextComponent: {fileID: 0}
   parentLinkedComponent: {fileID: 0}
   m_enableKerning: 1
+  m_ActiveFontFeatures: 00000000
   m_enableExtraPadding: 0
   checkPaddingRequired: 0
   m_isRichText: 1
+  m_EmojiFallbackSupport: 1
   m_parseCtrlCharacters: 1
   m_isOrthographic: 1
   m_isCullingEnabled: 0
@@ -7943,15 +7978,17 @@ MonoBehaviour:
   m_lineSpacingMax: 0
   m_paragraphSpacing: 0
   m_charWidthMaxAdj: 0
-  m_enableWordWrapping: 1
+  m_TextWrappingMode: 1
   m_wordWrappingRatios: 0.4
   m_overflowMode: 0
   m_linkedTextComponent: {fileID: 0}
   parentLinkedComponent: {fileID: 0}
   m_enableKerning: 1
+  m_ActiveFontFeatures: 00000000
   m_enableExtraPadding: 0
   checkPaddingRequired: 0
   m_isRichText: 1
+  m_EmojiFallbackSupport: 1
   m_parseCtrlCharacters: 1
   m_isOrthographic: 1
   m_isCullingEnabled: 0
@@ -8624,15 +8661,17 @@ MonoBehaviour:
   m_lineSpacingMax: 0
   m_paragraphSpacing: 0
   m_charWidthMaxAdj: 0
-  m_enableWordWrapping: 1
+  m_TextWrappingMode: 1
   m_wordWrappingRatios: 0.4
   m_overflowMode: 0
   m_linkedTextComponent: {fileID: 0}
   parentLinkedComponent: {fileID: 0}
   m_enableKerning: 1
+  m_ActiveFontFeatures: 00000000
   m_enableExtraPadding: 0
   checkPaddingRequired: 0
   m_isRichText: 1
+  m_EmojiFallbackSupport: 1
   m_parseCtrlCharacters: 1
   m_isOrthographic: 1
   m_isCullingEnabled: 0
@@ -9575,6 +9614,7 @@ AudioSource:
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 0}
+  m_Resource: {fileID: 0}
   m_PlayOnAwake: 0
   m_Volume: 1
   m_Pitch: 1
@@ -10028,7 +10068,7 @@ MonoBehaviour:
   m_OnCullStateChanged:
     m_PersistentCalls:
       m_Calls: []
-  m_text: Zeit (Jahre)
+  m_text: Time (Years)
   m_isRightToLeft: 0
   m_fontAsset: {fileID: 11400000, guid: 2af0b54e7546b4a319645533acee5613, type: 2}
   m_sharedMaterial: {fileID: -7809376638605674287, guid: 6b3f431c427960a4e9900bdb55699647, type: 2}
@@ -10071,15 +10111,17 @@ MonoBehaviour:
   m_lineSpacingMax: 0
   m_paragraphSpacing: 0
   m_charWidthMaxAdj: 0
-  m_enableWordWrapping: 1
+  m_TextWrappingMode: 1
   m_wordWrappingRatios: 0.4
   m_overflowMode: 0
   m_linkedTextComponent: {fileID: 0}
   parentLinkedComponent: {fileID: 0}
   m_enableKerning: 1
+  m_ActiveFontFeatures: 00000000
   m_enableExtraPadding: 0
   checkPaddingRequired: 0
   m_isRichText: 1
+  m_EmojiFallbackSupport: 1
   m_parseCtrlCharacters: 1
   m_isOrthographic: 1
   m_isCullingEnabled: 0
@@ -10597,7 +10639,7 @@ PrefabInstance:
     - target: {fileID: -9058302743393066433, guid: afc12596e6a908e4891e4f25d9dfd5f1, type: 3}
       propertyPath: subDivisions.material
       value: 
-      objectReference: {fileID: 2100000, guid: 1f6790359ddee4fc3af99e2975ab83f6, type: 2}
+      objectReference: {fileID: 2100000, guid: 965afe182bf141344877ad1ae1fd954e, type: 2}
     - target: {fileID: -9058302743393066433, guid: afc12596e6a908e4891e4f25d9dfd5f1, type: 3}
       propertyPath: mainDivisions.fontSize
       value: 30
@@ -10629,7 +10671,7 @@ PrefabInstance:
     - target: {fileID: -2625831384701809420, guid: afc12596e6a908e4891e4f25d9dfd5f1, type: 3}
       propertyPath: subDivisions.material
       value: 
-      objectReference: {fileID: 2100000, guid: 1f6790359ddee4fc3af99e2975ab83f6, type: 2}
+      objectReference: {fileID: 2100000, guid: 965afe182bf141344877ad1ae1fd954e, type: 2}
     - target: {fileID: -2625831384701809420, guid: afc12596e6a908e4891e4f25d9dfd5f1, type: 3}
       propertyPath: mainDivisions.fontSize
       value: 35
@@ -11229,15 +11271,17 @@ MonoBehaviour:
   m_lineSpacingMax: 0
   m_paragraphSpacing: 0
   m_charWidthMaxAdj: 0
-  m_enableWordWrapping: 1
+  m_TextWrappingMode: 1
   m_wordWrappingRatios: 0.4
   m_overflowMode: 0
   m_linkedTextComponent: {fileID: 0}
   parentLinkedComponent: {fileID: 0}
   m_enableKerning: 1
+  m_ActiveFontFeatures: 6e72656b
   m_enableExtraPadding: 0
   checkPaddingRequired: 0
   m_isRichText: 1
+  m_EmojiFallbackSupport: 1
   m_parseCtrlCharacters: 1
   m_isOrthographic: 1
   m_isCullingEnabled: 0
@@ -11417,11 +11461,11 @@ MonoBehaviour:
   DateDisplayFormat: yyyy
   Categories:
   - Enabled: 1
-    Name: Afrika
+    Name: Africa
     DataType: 2
     DataFormat: 0
     Skip: 0
-    ParentObjectName: Afrika
+    ParentObjectName: Africa
     DataObjectName: 
     XDataObjectName: Date
     YDataObjectName: Emissions
@@ -11429,11 +11473,11 @@ MonoBehaviour:
     XDateFormat: yyyy-MM-dd
     YDateFormat: 
   - Enabled: 1
-    Name: Asien
+    Name: Asia
     DataType: 2
     DataFormat: 0
     Skip: 0
-    ParentObjectName: Asien
+    ParentObjectName: Asia
     DataObjectName: 
     XDataObjectName: Date
     YDataObjectName: Emissions
@@ -11441,11 +11485,11 @@ MonoBehaviour:
     XDateFormat: yyyy-MM-dd
     YDateFormat: 
   - Enabled: 1
-    Name: Australien
+    Name: Australia
     DataType: 2
     DataFormat: 0
     Skip: 0
-    ParentObjectName: Australien
+    ParentObjectName: Australia
     DataObjectName: 
     XDataObjectName: Date
     YDataObjectName: Emissions
@@ -11453,11 +11497,11 @@ MonoBehaviour:
     XDateFormat: yyyy-MM-dd
     YDateFormat: 
   - Enabled: 1
-    Name: Europa
+    Name: Europe
     DataType: 2
     DataFormat: 0
     Skip: 0
-    ParentObjectName: Europa
+    ParentObjectName: Europe
     DataObjectName: 
     XDataObjectName: Date
     YDataObjectName: Emissions
@@ -11465,11 +11509,11 @@ MonoBehaviour:
     XDateFormat: yyyy-MM-dd
     YDateFormat: 
   - Enabled: 1
-    Name: Nord Amerika
+    Name: North America
     DataType: 2
     DataFormat: 0
     Skip: 0
-    ParentObjectName: Nord Amerika
+    ParentObjectName: North America
     DataObjectName: 
     XDataObjectName: Date
     YDataObjectName: Emissions
@@ -11477,11 +11521,11 @@ MonoBehaviour:
     XDateFormat: yyyy-MM-dd
     YDateFormat: 
   - Enabled: 1
-    Name: "S\xFCdamerika"
+    Name: South America
     DataType: 2
     DataFormat: 0
     Skip: 0
-    ParentObjectName: "S\xFCdamerika"
+    ParentObjectName: South America
     DataObjectName: 
     XDataObjectName: Date
     YDataObjectName: Emissions
@@ -11939,15 +11983,17 @@ MonoBehaviour:
   m_lineSpacingMax: 0
   m_paragraphSpacing: 0
   m_charWidthMaxAdj: 0
-  m_enableWordWrapping: 1
+  m_TextWrappingMode: 1
   m_wordWrappingRatios: 0.4
   m_overflowMode: 0
   m_linkedTextComponent: {fileID: 0}
   parentLinkedComponent: {fileID: 0}
   m_enableKerning: 1
+  m_ActiveFontFeatures: 00000000
   m_enableExtraPadding: 0
   checkPaddingRequired: 0
   m_isRichText: 1
+  m_EmojiFallbackSupport: 1
   m_parseCtrlCharacters: 1
   m_isOrthographic: 1
   m_isCullingEnabled: 0
@@ -13114,15 +13160,17 @@ MonoBehaviour:
   m_lineSpacingMax: 0
   m_paragraphSpacing: 0
   m_charWidthMaxAdj: 0
-  m_enableWordWrapping: 1
+  m_TextWrappingMode: 1
   m_wordWrappingRatios: 0.4
   m_overflowMode: 0
   m_linkedTextComponent: {fileID: 0}
   parentLinkedComponent: {fileID: 0}
   m_enableKerning: 1
+  m_ActiveFontFeatures: 00000000
   m_enableExtraPadding: 0
   checkPaddingRequired: 0
   m_isRichText: 1
+  m_EmojiFallbackSupport: 1
   m_parseCtrlCharacters: 1
   m_isOrthographic: 1
   m_isCullingEnabled: 0
@@ -13193,6 +13241,7 @@ AudioSource:
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 0}
+  m_Resource: {fileID: 0}
   m_PlayOnAwake: 0
   m_Volume: 1
   m_Pitch: 1
@@ -13644,6 +13693,9 @@ LineRenderer:
   m_ReflectionProbeUsage: 0
   m_RayTracingMode: 0
   m_RayTraceProcedural: 0
+  m_RayTracingAccelStructBuildFlagsOverride: 0
+  m_RayTracingAccelStructBuildFlags: 1
+  m_SmallMeshCulling: 1
   m_RenderingLayerMask: 1
   m_RendererPriority: 0
   m_Materials:
@@ -14329,7 +14381,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 0}
   m_AnchorMax: {x: 1, y: 1}
-  m_AnchoredPosition: {x: -0.0007324219, y: 0.0079193115}
+  m_AnchoredPosition: {x: -0.0007324219, y: 0.009994507}
   m_SizeDelta: {x: 0, y: 0}
   m_Pivot: {x: 0.5, y: 1}
 --- !u!114 &2062869892
@@ -14424,15 +14476,17 @@ MonoBehaviour:
   m_lineSpacingMax: 0
   m_paragraphSpacing: 0
   m_charWidthMaxAdj: 0
-  m_enableWordWrapping: 1
+  m_TextWrappingMode: 1
   m_wordWrappingRatios: 0.4
   m_overflowMode: 0
   m_linkedTextComponent: {fileID: 0}
   parentLinkedComponent: {fileID: 0}
   m_enableKerning: 1
+  m_ActiveFontFeatures: 6e72656b
   m_enableExtraPadding: 0
   checkPaddingRequired: 0
   m_isRichText: 1
+  m_EmojiFallbackSupport: 1
   m_parseCtrlCharacters: 1
   m_isOrthographic: 1
   m_isCullingEnabled: 0
@@ -14673,7 +14727,7 @@ RectTransform:
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
   m_AnchorMin: {x: 0, y: 1}
   m_AnchorMax: {x: 0, y: 1}
-  m_AnchoredPosition: {x: 211.00003, y: 0.006225586}
+  m_AnchoredPosition: {x: 211.00003, y: 0.01574707}
   m_SizeDelta: {x: 422.00006, y: 0}
   m_Pivot: {x: 0.5, y: 1}
 --- !u!114 &2077515484
@@ -15098,17 +15152,17 @@ MonoBehaviour:
   auxiliaryPanel: {fileID: 1938172008}
   graphNameLabelText: Example dataset
   graphNameLabel: {fileID: 0}
-  category1Name: Afrika
+  category1Name: Africa
   category1Color: {fileID: 2100000, guid: 50d6dbeed00cc22498d59f2d377663a1, type: 2}
-  category2Name: Asien
+  category2Name: Asia
   category2Color: {fileID: 2100000, guid: e91a104ae561b8c47afc13fcaa8a166c, type: 2}
-  category3Name: Europa
+  category3Name: Europe
   category3Color: {fileID: 2100000, guid: df6233e1a89483b4293f79ea6aa723d3, type: 2}
-  category4Name: Nord Amerika
+  category4Name: North America
   category4Color: {fileID: 2100000, guid: 0000602c14b314841bf04bfce15cbb3b, type: 2}
-  category5Name: "S\xFCdamerika"
+  category5Name: South America
   category5Color: {fileID: 2100000, guid: 335c373f5be7f15409611cb2a0b8f052, type: 2}
-  category6Name: Australien
+  category6Name: Australia
   category6Color: {fileID: 2100000, guid: 28bfdd1ef25356d47abc83cc08df4085, type: 2}
   areaControlPanelTemplate: {fileID: 2017119007}
 --- !u!114 &2092678835
@@ -15247,6 +15301,7 @@ AudioSource:
   serializedVersion: 4
   OutputAudioMixerGroup: {fileID: 0}
   m_audioClip: {fileID: 0}
+  m_Resource: {fileID: 0}
   m_PlayOnAwake: 1
   m_Volume: 0.5
   m_Pitch: 1
@@ -16555,6 +16610,10 @@ PrefabInstance:
       value: 0
       objectReference: {fileID: 0}
     - target: {fileID: 9097305232372098078, guid: 475a0292639f5104e855e1f1c389c0fb, type: 3}
+      propertyPath: m_RootOrder
+      value: 7
+      objectReference: {fileID: 0}
+    - target: {fileID: 9097305232372098078, guid: 475a0292639f5104e855e1f1c389c0fb, type: 3}
       propertyPath: m_AnchorMax.x
       value: 0
       objectReference: {fileID: 0}
@@ -16731,13 +16790,13 @@ MonoBehaviour:
 SceneRoots:
   m_ObjectHideFlags: 0
   m_Roots:
-  - {fileID: 1739286632}
-  - {fileID: 1126110815}
-  - {fileID: 2071018268233726198}
-  - {fileID: 1468677030}
-  - {fileID: 1557310914}
-  - {fileID: 2049579218}
-  - {fileID: 1984819844}
-  - {fileID: 1018454489}
   - {fileID: 831941006}
+  - {fileID: 1984819844}
   - {fileID: 653274155}
+  - {fileID: 2049579218}
+  - {fileID: 1126110815}
+  - {fileID: 1468677030}
+  - {fileID: 1018454489}
+  - {fileID: 2071018268233726198}
+  - {fileID: 1557310914}
+  - {fileID: 1739286632}

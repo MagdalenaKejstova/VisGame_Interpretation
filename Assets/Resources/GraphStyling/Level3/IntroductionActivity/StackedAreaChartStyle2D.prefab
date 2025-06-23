@@ -8149,7 +8149,7 @@ MonoBehaviour:
       PointSize: 0
       ViewOrder: 0
       AllowNonFunctionsBeta: 0
-    - Name: "\xD6l"
+    - Name: Oil
       InitialData: []
       IsBezierCurve: 0
       SegmentsPerCurve: 30
@@ -8171,7 +8171,7 @@ MonoBehaviour:
       PointSize: 0
       ViewOrder: 1
       AllowNonFunctionsBeta: 0
-    - Name: Kohle
+    - Name: Coal
       InitialData: []
       IsBezierCurve: 0
       SegmentsPerCurve: 30

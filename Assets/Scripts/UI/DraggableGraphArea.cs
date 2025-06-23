@@ -98,7 +98,7 @@ public class DraggableGraphArea : MonoBehaviour, IDragHandler
             {
                 // Find closest graph value to current pointer horizontal position
                 var closestDataPoint = _referenceDataPoints.OrderBy(point => Math.Abs(point.x - clickedPointX)).First();
-                precipitationAmountVisualizer.text = $"Gesamtniederschlag:\n {closestDataPoint.y:F2} mm";
+                precipitationAmountVisualizer.text = $"Total Precipitation:\n {closestDataPoint.y:F2} mm";
             }
             
             if (precipitationDateVisualizer != null)
@@ -106,7 +106,7 @@ public class DraggableGraphArea : MonoBehaviour, IDragHandler
                 // Find closest graph value to current pointer horizontal position
                 var closestDataPoint = _referenceDataPoints.OrderBy(point => Math.Abs(point.x - clickedPointX)).First();
                 var date = GetFormattedDate(closestDataPoint.x);
-                precipitationDateVisualizer.text = $"Bis heute: {date}";
+                precipitationDateVisualizer.text = $"Until date: {date}";
             } 
         }
     }
